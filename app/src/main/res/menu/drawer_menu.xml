@@ -27,7 +27,7 @@
 
     <item
         android:id="@+id/treFragment"
-        android:title="tre"/>
+        android:title="Frammento 3"/>
         </group>
 
 </menu>
