@@ -8,25 +8,21 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="300dp"
-        android:layout_height="149dp"
-        android:fontFamily="casual"
+        android:layout_width="329dp"
+        android:layout_height="88dp"
+        android:fontFamily="@font/open_sans_light"
         android:gravity="center"
-        android:rotation="-360"
-        android:rotationX="360"
-        android:rotationY="360"
         android:text="BENVENUTI SULLA NUOVA APP DELL'ITIS PININFARINA"
-        android:textColor=" #252850"
-        android:textSize="30dp"
-        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20dp"
         android:visibility="visible"
         app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.548"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.195" />
+        app:layout_constraintVertical_bias="0.234" />
 
     <HorizontalScrollView
         android:layout_width="357dp"
@@ -58,66 +54,138 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="107dp"
-        android:layout_height="34dp"
+        android:layout_width="136dp"
+        android:layout_height="32dp"
         android:background="#0003A9F4"
         android:clickable="true"
+        android:fontFamily="@font/open_sans_light"
+        android:gravity="center"
         android:text="CONTATTI"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintHorizontal_bias="0.527"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.688" />
+        app:layout_constraintVertical_bias="0.692" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="120dp"
-        android:layout_height="42dp"
+        android:layout_width="141dp"
+        android:layout_height="34dp"
         android:autoLink="phone"
+        android:fontFamily="@font/open_sans_light"
+        android:gravity="center"
         android:text="011 605 8311"
+        android:textColorLink="#000000"
         app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.537"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.756" />
+        app:layout_constraintVertical_bias="0.73" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="211dp"
-        android:layout_height="38dp"
+        android:layout_width="253dp"
+        android:layout_height="37dp"
         android:autoLink="email"
+        android:fontFamily="@font/open_sans_light"
         android:text="pininfarina@itispininfarina.it"
+        android:textColorLink="#000000"
+        android:gravity="center"
         app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.525"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.821" />
+        app:layout_constraintVertical_bias="0.775" />
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="316dp"
-        android:layout_height="42dp"
+        android:layout_width="371dp"
+        android:layout_height="45dp"
         android:autoLink="all"
+        android:fontFamily="@font/open_sans_light"
         android:text="Via A. Ponchielli16, 10024, Moncalieri TO"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:autoSizeTextType="uniform"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.675"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="463dp"
+        android:layout_height="33dp"
+        android:text="_______________________________________________________________________"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.928" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="411dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/open_sans_light"
+        android:gravity="center"
+        android:text="@ Copyright 2022 | Engineered and powered by G.F.M.E"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:autoLink="web"
+        android:fontFamily="@font/open_sans_light"
+        android:text="https://www.itispininfarina.edu.it/"
+        android:textColorLink="#000000"
+        android:gravity="center"
         app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.893" />
+        app:layout_constraintVertical_bias="0.829" />
 
-    <ImageView
-        android:id="@+id/imageView2"
+    <androidx.constraintlayout.widget.Barrier
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/screenshot__2_" />
+        app:barrierDirection="top"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="813dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/screenshot__2_"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="22dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/screenshot__2_"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="12dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
