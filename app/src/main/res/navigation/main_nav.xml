@@ -8,23 +8,23 @@
     <fragment
         android:id="@+id/principaleFragment"
         android:name="com.example.itispininfarina.FragmentPrincipale"
-        android:label="@string/app_name"
+        android:label="Itis Pininfarina"
         tools:layout="@layout/fragment_principale" />
 
     <fragment
         android:id="@+id/unoFragment"
         android:name="com.example.itispininfarina.UnoFragment"
-        android:label="@string/app_name"
+        android:label="Informatica"
         tools:layout="@layout/fragment_uno" />
     <fragment
         android:id="@+id/dueFragment"
         android:name="com.example.itispininfarina.DueFragment"
-        android:label="@string/app_name"
+        android:label="Chimica &amp; Biotecnologie"
         tools:layout="@layout/fragment_due" />
     <fragment
         android:id="@+id/treFragment"
         android:name="com.example.itispininfarina.TreFragment"
-        android:label="@string/app_name"
+        android:label="boh"
         tools:layout="@layout/fragment_tre" />
 
 </navigation>
