@@ -7,15 +7,15 @@
     <item
         android:id="@+id/principaleFragment"
 
-        android:title="principale"/>
+        android:title="Pagina principale"/>
     <item
         android:id="@+id/unoFragment"
 
-        android:title="uno"/>
+        android:title="Informatica"/>
     <item
         android:id="@+id/dueFragment"
 
-        android:title="due"/>
+        android:title="Chimica &amp; Biotecnologie"/>
 
     <item
         android:id="@+id/treFragment"
