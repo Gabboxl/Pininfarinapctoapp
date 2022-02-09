@@ -7,8 +7,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="343dp"
-        android:layout_height="126dp"
+        android:layout_width="329dp"
+        android:layout_height="88dp"
         android:fontFamily="@font/open_sans_light"
         android:gravity="center"
         android:text="BENVENUTI SULLA NUOVA APP DELL'ITIS PININFARINA"
@@ -19,9 +19,10 @@
         app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.227" />
+        app:layout_constraintVertical_bias="0.234" />
 
     <HorizontalScrollView
         android:layout_width="357dp"
@@ -68,8 +69,8 @@
         android:clickable="true"
         android:fontFamily="@font/open_sans_light"
         android:gravity="center"
-        android:textStyle="bold"
         android:text="CONTATTI"
+        android:textStyle="bold"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -149,16 +150,15 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/open_sans_light"
         android:gravity="center"
+        android:textStyle="bold"
         android:text="@ Copyright 2022 | Engineered and powered by G.F.M.E"
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        android:textStyle="bold"/>
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
-
         android:id="@+id/textView8"
         android:layout_width="320dp"
         android:layout_height="48dp"
