@@ -7,13 +7,156 @@
     tools:context=".UnoFragment">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/textView9"
+        android:layout_width="247dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="center"
+        android:text="CORSO DI INFORMATICA E TELECOMUNCIAZIONI"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.981"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.172" />
+
+    <ScrollView
+        android:layout_width="390dp"
+        android:layout_height="470dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.65"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="117dp"
+
+                android:fontFamily="@font/open_sans_light"
+                android:text="Sistemi e  reti  ‐ Vengono affrontare  le  problematiche  della  comunicazione  tra calcolatori in rete sia a livello locale che geografica (internet), in modo da  formare  tecnici  in  grado  di  progettare  e  configurare  reti,  e  di  realizzare  applicazioni informatiche."
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans_light"
+                android:text="Tecnologie  e  progettazione  di  sistemi  informatici  e  di  telecomunicazioni ‐ L’approccio all’elaboratore porta a vedere la macchina  dal  punto  di  vista  sistemico,  analizzando  il  “come  è  fatto”  e  il  “come  funziona”.  Vengono  inoltre affrontate  le  problematiche  della  progettazione  di sistemi di elaborazione e di trasmissione delle informazioni seguendo varie  metodologie di progetto. "
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:fontFamily="@font/open_sans_semibold"
+                android:gravity="center"
+                android:text="MATERIE DI INDIRIZZO"
+                android:textColor="#F44336"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="209dp"
+                android:fontFamily="@font/open_sans_light"
+                android:text="Informatica  ‐  Si  impara  a  realizzare  programmi  per  il  computer,  ma  soprattutto ad affrontare problemi, individuandone le soluzioni partendo  dall'analisi  per arrivare alla  realizzazione,  scegliendo le metodologie e gli  strumenti  software  più  idonei  tra  quelli  a  disposizione.  Rispetto  all’  articolazione  Telecomunicazioni,  i  temi  trattati  vengono  maggiormente  approfonditi  rendendo  possibile in  tal modo anche lo  studio  di problemi  complessi;  le  competenze  vengono  inoltre  estese  agli  ambiti  della  gestione dei dati (Database) e all’implementazione di interfacce utente. "
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:fontFamily="@font/open_sans_light"
+                android:text="Telecomunicazioni ‐ Vengono fornite le basi dell’elettronica e i concetti  fondamentali delle telecomunicazioni, in modo da poter utilizzare in modo  consapevole  gli  strumenti  tecnologici  con  cui  il  futuro  perito  dovrà  lavorare"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="103dp"
+                android:fontFamily="@font/open_sans_light"
+                android:text="Gestione di progetto, organizzazione d’impresa ‐ Materia del quinto  anno, fornisce le basi per saper realizzare un progetto anche dal punto di  vista  gestionale  e  non  solo  tecnico.  Fornisce  indicazioni  su  come  sono  organizzate le imprese"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:autoLink="web"
+                android:text="urly.it/3hnh7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:text="Se vuoi scaricare il volantino completa clicca su qui." />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="405dp"
+        android:layout_height="125dp"
+        android:src="@drawable/screenshot__2__removebg_preview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-7dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="139dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="12dp"
+        android:src="@drawable/informatica_removebg_preview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.138" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="418dp"
+        android:layout_height="28dp"
+        android:text="__________________________________________________________________"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ciao sono il fragment 1"
-        android:textSize="24sp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/comfortaa_light"
+        android:text="@ Copyright 2022 | Engineered and powered by G.F.M.E"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textStyle="bold"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
