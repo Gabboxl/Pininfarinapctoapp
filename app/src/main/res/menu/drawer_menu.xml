@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/unoFragment"
+        android:enabled="true"
+
+        android:title="uno"/>
+    <item
+        android:id="@+id/dueFragment"
+        android:enabled="true"
+
+        android:title="due"/>
+
+    <item
+        android:id="@+id/treFragment"
+        android:enabled="true"
+
+        android:title="tre"/>
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/principaleFragment">
+
+    <fragment
+        android:id="@+id/principaleFragment"
+        android:name="com.example.itispininfarina.FragmentPrincipale"
+        android:label="principale_fragment"
+        tools:layout="@layout/fragment_principale" />
+
+    <fragment
+        android:id="@+id/unoFragment"
+        android:name="com.example.itispininfarina.FragmentPrincipale"
+        android:label="fragment_uno"
+        tools:layout="@layout/fragment_uno" />
+    <fragment
+        android:id="@+id/dueFragment"
+        android:name="com.example.itispininfarina.FragmentPrincipale"
+        android:label="fragment_due"
+        tools:layout="@layout/fragment_due" />
+    <fragment
+        android:id="@+id/treFragment"
+        android:name="com.example.itispininfarina.FragmentPrincipale"
+        android:label="fragment_tre"
+        tools:layout="@layout/fragment_tre" />
+
+</navigation>
