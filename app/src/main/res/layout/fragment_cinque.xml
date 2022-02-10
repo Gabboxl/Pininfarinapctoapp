@@ -6,21 +6,76 @@
     android:layout_height="match_parent"
     tools:context=".UnoFragment">
 
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="410dp"
+        android:layout_height="115dp"
+        android:src="@drawable/screenshot__2__removebg_preview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
 
     <TextView
-        android:id="@+id/textView9"
-        android:layout_width="248dp"
-        android:layout_height="83dp"
-        android:fontFamily="@font/open_sans"
+        android:id="@+id/textView21"
+        android:layout_width="377dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/open_sans_bold"
         android:gravity="center"
-        android:text="sette"
+        android:text="CHI SIAMO?"
+        android:textColor="#F44336"
         android:textSize="24sp"
+        app:autoSizeTextType="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.158" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="384dp"
+        android:layout_height="190dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="Noi siamo i G.F.M.E , quattro studenti della 4°A Informatica dell'ITIS PININFARINA appassionati di informatica e del mondo della programmazione. Questa app è nata come progetto di PCTO, ed il nostro scopo è di renderla sempre migliore per poi offrirla a tutti gli studenti ed il personale della scuola.                                                                                   I nostri nomi sono Gabriele Castelli, Francesco Roscia, Mattia Del Grosso ed Eric Marian Stoicescu"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.281"
+        />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="418dp"
+        android:layout_height="28dp"
+        android:text="__________________________________________________________________"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/comfortaa_light"
+        android:text="@ Copyright 2022 | Engineered and powered by G.F.M.E"
+        android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.981"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
