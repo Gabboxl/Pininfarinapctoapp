@@ -37,10 +37,7 @@
             android:icon="@drawable/ic_fiat_cropped"
             android:title="Meccanica &amp; Meccatronica" />
 
-        <item
-            android:id="@+id/seiFragment"
-            android:title="Chi siamo (Scuola)" />
-
+        
         <item
             android:id="@+id/setteFragment"
             android:title="Frammento 7" />
@@ -55,6 +52,12 @@
     <group
         android:id="@+id/group3"
         android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/seiFragment"
+            android:icon="@drawable/ic_baseline_book_24"
+            android:title="Chi siamo (Scuola)" />
+
         <item
             android:id="@+id/cinqueFragment"
             android:icon="@drawable/ic_baseline_info_24"
