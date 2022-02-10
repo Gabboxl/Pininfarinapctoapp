@@ -22,11 +22,11 @@ class FragmentPrincipale : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        var layout =  inflater.inflate(R.layout.fragment_principale, container, false)
+        val layout =  inflater.inflate(R.layout.fragment_principale, container, false)
 
-        var imageSlider = layout.findViewById<ImageSlider>(R.id.slider)
+        val imageSlider = layout.findViewById<ImageSlider>(R.id.slider)
 
-        var slideModels = ArrayList<SlideModel>();
+        val slideModels = ArrayList<SlideModel>();
 
         slideModels.add(SlideModel(R.drawable.biotecnologie_removebg_preview))
         slideModels.add(SlideModel(R.drawable.elettronica_removebg_preview))
