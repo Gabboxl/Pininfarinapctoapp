@@ -1,10 +1,12 @@
 package com.example.itispininfarina
 
 import android.os.Bundle
+import android.text.method.LinkMovementMethod
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 
 
 class UnoFragment : Fragment() {
@@ -21,7 +23,13 @@ class UnoFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_uno, container, false)
+
+        val layout = inflater.inflate(R.layout.fragment_uno, container, false)
+
+        var linkTextView: TextView;
+        linkTextView = layout.findViewById(R.id.textView16);
+        linkTextView.setMovementMethod(LinkMovementMethod.getInstance())
+
+        return layout
     }
 }

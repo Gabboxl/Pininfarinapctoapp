@@ -2,4 +2,8 @@
     <string name="app_name">ItisPininfarina</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="INFO"><a href='https://www.itispininfarina.edu.it/pvw/app/default/pvw_img.php?sede_codice=TOIT0035&amp;doc=2614017&amp;inl=1'>CLICCA PER ACCEDERE ALL'OFFERTA FORMATIVA</a></string>
+    <string name="CHIM"><a href='https://www.itispininfarina.edu.it/pvw/app/default/pvw_img.php?sede_codice=TOIT0035&amp;doc=2614013&amp;inl=1'>CLICCA PER ACCEDERE ALL'OFFERTA FORMATIVA</a></string>
+    <string name="MEC"><a href='https://www.itispininfarina.edu.it/pvw/app/default/pvw_img.php?sede_codice=TOIT0035&amp;doc=2614026&amp;inl=1'>CLICCA PER ACCEDERE ALL'OFFERTA FORMATIVA</a></string>
+    <string name="ELE"><a href='https://www.itispininfarina.edu.it/pvw/app/default/pvw_img.php?sede_codice=TOIT0035&amp;doc=2614024&amp;inl=1'>CLICCA PER ACCEDERE ALL'OFFERTA FORMATIVA</a></string>
 </resources>
