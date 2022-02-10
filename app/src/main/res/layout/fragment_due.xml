@@ -6,22 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".UnoFragment">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/screenshot__2_" />
-
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="289dp"
-        android:layout_height="113dp"
+        android:layout_width="248dp"
+        android:layout_height="83dp"
         android:fontFamily="@font/open_sans"
         android:gravity="center"
         android:text="CORSO DI CHIMICA &amp; BIOTECNOLOGIE"
@@ -29,47 +17,32 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.012"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.178" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="164dp"
-        android:layout_height="117dp"
-        android:src="@drawable/biotecnologie_removebg_preview"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.178" />
+        app:layout_constraintVertical_bias="0.174" />
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="OBIETTIVI DEL CORSO"
-        android:textColor="#FF0000"
-        android:textSize="24sp"
-        android:textStyle="bold"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="155dp"
+        android:layout_height="86dp"
+        android:src="@drawable/biotecnologie_removebg_preview"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.321" />
+        app:layout_constraintVertical_bias="0.172" />
 
     <ScrollView
-        android:layout_width="429dp"
+        android:layout_width="382dp"
         android:layout_height="459dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintVertical_bias="0.72"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -77,67 +50,90 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView20"
-                android:layout_width="match_parent"
-                android:layout_height="39dp" />
-
-            <TextView
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
+                android:layout_height="297dp"
+                android:fontFamily="@font/open_sans_light"
                 android:text=" La  chimica  bio‐organica  si  occupa  dello  studio  degli  idrocarburi  (saturi,  insaturi,  aromatici)  e  dei  composti  contenenti  gruppi  funzionali  (alcoli,  composti  carbonici,  acidi  carbossilici  e  derivati, ammine) al fine di comprendere i principali meccanismi di reazione  e  la  correlazione  tra  struttura  molecolare  e  proprietà  chimiche  e  chimico  fisiche.  Nel  corso  del  triennio  si  affronta  lo  studio  delle  caratteristiche  strutturali  e  funzionali  delle  biomolecole  (glucidi,  lipidi,  proteine,  acidi  nucleici)  e  quello  della  catalisi  enzimatica  e  dell’energia  in  biochimica  in  modo tale da porre le basi per la logica comprensione dei principali processi  metabolici. Nella trattazione dei contenuti si mettono in evidenza gli aspetti  applicativi della disciplina e le correlazioni con la vita quotidiana. "
-                android:textSize="20sp" />
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
-                android:layout_height="128dp"
-                android:fontFamily="sans-serif"
-                android:gravity="center"
-                android:text="Le  competenze  acquisite  dai  diplomati  in  Biotecnologie  ambientali permettono loro di inserirsi in ruoli di responsabilità e di coordinamento in  strutture  sia  pubbliche  che  private  come  la  Società  Metropolitana  delle  Acque per analisi chimiche e microbiologiche o l’ARPA per analisi ambientali  a largo spettro"
-                android:textSize="20sp" />
-
-            <TextView
-                android:id="@+id/textView14"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="Il  diplomato  in  Biotecnologie  Ambientali  affronta  le  problematiche  ambientali con una visione sistemica avvalendosi di competenze specifiche in  ambito Biologico, Chimico e Fisico nel rispetto delle normative sulla protezione  ambientale e sulla sicurezza negli ambienti di vita e di lavoro.  La  sua  preparazione  gli  consente  di  dialogare  con  esperti  delle  diverse  discipline  interessate  alla  valutazione  ambientale,  inoltre  padroneggia  le  tecniche di monitoraggio per la tutela del territorio e delle risorse ambientali.  Il  corso  consente  l’utilizzo  di  strumentazione  avanzata  per  fornire  una  conoscenza  estesa  delle  tecniche  di  laboratorio  di  livello  professionale;  la  metodologia  didattica  si  avvale  inoltre  di  frequenti  uscite  sul  territorio  per  il  campionamento e le analisi  nel  settore ambientale e  fornisce  un’ottima  base  per la prosecuzione degli studi in ambito tecnico scientifico.  L’alternanza Scuola Lavoro viene valorizzata per potenziare gli aspetti  professionalizzanti delle diverse discipline."
-                android:textSize="20sp" />
-
-            <TextView
-                android:id="@+id/textView16"
-                android:layout_width="match_parent"
-                android:layout_height="47dp"
-                android:text="                                                    " />
+                android:layout_height="180dp"
+                android:fontFamily="@font/open_sans_light"
+                android:text="Fisica ambientale ‐ La fisica ambientale studia la produzione di energia e le  sue  trasformazioni,  con  particolare  riferimento  all’ambiente;  esamina  poi  i  problemi degli inquinanti di tipo fisico, in particolare il rumore, le radiazioni  non  ionizzanti  (campi  elettromagnetici)  e  quelle  ionizzanti  (radiazioni  nucleari).  Nell’ambito  della  fisica  ambientale  si  riprendono  le  tecniche  di  misura, la normativa sugli inquinanti di tipo fisico e i loro effetti biologici."
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
+                android:fontFamily="@font/open_sans_semibold"
                 android:gravity="center"
                 android:text="MATERIE DI INDIRIZZO"
-                android:textColor="#000000"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                tools:layout_editor_absoluteX="108dp"
-                tools:layout_editor_absoluteY="265dp" />
-
-            <TextView
-                android:id="@+id/textView18"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:textColor="#F44336"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/textView17"
                 android:layout_width="match_parent"
+                android:layout_height="276dp"
+                android:fontFamily="@font/open_sans_light"
+                android:text="Biologia,  microbiologia  e  tecniche  di  controllo  ambientale  ‐ Vengono  studiati  argomenti  di  biologia,  dalla  struttura  della  cellula  agli  ecosistemi,  e  di  microbiologia,  con  particolare  riferimento  a  quei  microrganismi  sfruttati  in  moltissime  applicazioni  biotecnologiche,  per  esempio  nella  bonifica  di  aree  inquinate.  La  pratica  di  laboratorio  permette  agli  allievi  di  analizzare  i  fenomeni  biologici  oggetto  di  studio:  osservare  i  microrganismi  con  il  microscopio  e  mediante  terreni  di  coltura,  individuare  i  principali  inquinanti  di  aria,  acqua  e  terreno;  approfondire  la  tecnologia  di  recupero  energetico  dei  rifiuti.  Viene  affrontato inoltre lo studio delle biotecnologie e delle loro applicazioni ambientali.  "
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:gravity="center"
-                android:text="Biologia,  microbiologia  e  tecniche  di  controllo  ambientale  ‐ Vengono  studiati  argomenti  di  biologia,  dalla  struttura  della  cellula  agli  ecosistemi,  e  di  microbiologia,  con  particolare  riferimento  a  quei  microrganismi  sfruttati  in  moltissime  applicazioni  biotecnologiche,  per  esempio  nella  bonifica  di  aree  inquinate.  La  pratica  di  laboratorio  permette  agli  allievi  di  analizzare  i  fenomeni  biologici  oggetto  di  studio:  osservare  i  microrganismi  con  il  microscopio  e  mediante  terreni  di  coltura,  individuare  i  principali  inquinanti  di  aria,  acqua  e  terreno;  approfondire  la  tecnologia  di  recupero  energetico  dei  rifiuti.  Viene  affrontato inoltre lo studio delle biotecnologie e delle loro applicazioni ambientali.  Chimica analitica e strumentale ‐ La chimica analitica permette di individuare  la  composizione  di  campioni  di  origine  naturale  o  artificiale  individuando  i  componenti presenti e la loro abbondanza (concentrazione).  Nel  corso  del  triennio  vengono  affrontate  tecniche  di  tipo  qualitativo,  che  permettono  di  individuare  le  sostanze  presenti  nei  campioni,  tecniche  di  tipo  quantitativo,  che  consentono  di  stabilire  la  quantità  dei  diversi  componenti  impiegando sia tecniche tradizionali che tecniche di tipo strumentale, attribuendo  la  massima  importanza  sia  agli  aspetti  pratici  sia  alle  basi  teoriche  delle  metodologie impiegate"
-                android:textSize="20sp" />
+                android:fontFamily="@font/open_sans_light"
+                android:text="Chimica analitica e strumentale ‐ La chimica analitica permette di individuare  la  composizione  di  campioni  di  origine  naturale  o  artificiale  individuando  i  componenti presenti e la loro abbondanza (concentrazione).  Nel  corso  del  triennio  vengono  affrontate  tecniche  di  tipo  qualitativo,  che  permettono  di  individuare  le  sostanze  presenti  nei  campioni,  tecniche  di  tipo  quantitativo,  che  consentono  di  stabilire  la  quantità  dei  diversi  componenti  impiegando sia tecniche tradizionali che tecniche di tipo strumentale, attribuendo  la  massima  importanza  sia  agli  aspetti  pratici  sia  alle  basi  teoriche  delle  metodologie impiegate"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
         </LinearLayout>
     </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="413dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/screenshot__2__removebg_preview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="418dp"
+        android:layout_height="28dp"
+        android:text="__________________________________________________________________"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939" />
+
+    <TextView
+    android:id="@+id/textView19"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:fontFamily="@font/comfortaa_light"
+    android:text="@ Copyright 2022 | Engineered and powered by G.F.M.E"
+    android:textColor="#000000"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:textStyle="bold"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
