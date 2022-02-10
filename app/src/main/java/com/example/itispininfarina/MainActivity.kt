@@ -1,8 +1,7 @@
 package com.example.itispininfarina
 
 import android.os.Bundle
-import android.view.View
-import android.view.ViewGroup.MarginLayoutParams
+import android.view.ViewGroup
 import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
@@ -46,25 +45,24 @@ class MainActivity : AppCompatActivity() {
         navView.setupWithNavController(navController)
 
 
+        //prendo l'altezza della statusbar in pixel
         var result = 0
         val resourceId = resources.getIdentifier("status_bar_height", "dimen", "android")
         if (resourceId > 0) {
             result = resources.getDimensionPixelSize(resourceId)
         }
 
-
-        val params = navView.layoutParams as LinearLayout.LayoutParams
-        params.setMargins(0, result, 0, 0) //substitute parameters for left, top, right, bottom
+        //applico l'altezza della statusbar come margintop al navigationdrawer come parametro di layout
+        val params: DrawerLayout.LayoutParams =
+            navView.layoutParams as DrawerLayout.LayoutParams
+        params.topMargin = result
         navView.layoutParams = params
+
+
+
     }
 
-    fun setMargins(v: View, l: Int, t: Int, r: Int, b: Int) {
-        if (v.layoutParams is MarginLayoutParams) {
-            val p = v.layoutParams as MarginLayoutParams
-            p.setMargins(l, t, r, b)
-            v.requestLayout()
-        }
-    }
+
 
 
     override fun onSupportNavigateUp(): Boolean {
