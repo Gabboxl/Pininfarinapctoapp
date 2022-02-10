@@ -97,16 +97,32 @@
                 android:text="Chimica analitica e strumentale ‐ La chimica analitica permette di individuare  la  composizione  di  campioni  di  origine  naturale  o  artificiale  individuando  i  componenti presenti e la loro abbondanza (concentrazione).  Nel  corso  del  triennio  vengono  affrontate  tecniche  di  tipo  qualitativo,  che  permettono  di  individuare  le  sostanze  presenti  nei  campioni,  tecniche  di  tipo  quantitativo,  che  consentono  di  stabilire  la  quantità  dei  diversi  componenti  impiegando sia tecniche tradizionali che tecniche di tipo strumentale, attribuendo  la  massima  importanza  sia  agli  aspetti  pratici  sia  alle  basi  teoriche  delle  metodologie impiegate"
                 android:textColor="#000000"
                 android:textStyle="bold"/>
+
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="32dp"
-                android:autoLink="web"
-                android:text="urly.it/3hnzn"
+                android:textStyle="bold"
+                android:fontFamily="@font/open_sans_light"
+                android:text="Se vuoi scaricare il volantino completa clicca il link sotto."
+                android:textColor="#000000"
+                android:textColorLink="#000000"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:text="Se vuoi scaricare il volantino completa clicca su qui." />
+                tools:text="Se vuoi scaricare il volantino completa clicca il link sotto." />
 
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:fontFamily="@font/open_sans_light"
+                android:gravity="center"
+                android:text="urly.it/3hn_8"
+                android:textColor="#000000"
+                android:textColorLink="#000000"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform" />
         </LinearLayout>
     </ScrollView>
 

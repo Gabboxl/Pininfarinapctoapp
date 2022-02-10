@@ -7,35 +7,35 @@
     tools:context=".UnoFragment"
     >
 
-<TextView
-android:id="@+id/textView9"
-android:layout_width="248dp"
-android:layout_height="83dp"
-android:fontFamily="@font/open_sans"
-android:gravity="center"
-android:text="MECCANICA &amp; MECCATRONICA"
-android:textSize="24sp"
-android:textStyle="bold"
-app:layout_constraintBottom_toBottomOf="parent"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintHorizontal_bias="1.0"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toTopOf="parent"
-app:layout_constraintVertical_bias="0.174" />
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="248dp"
+        android:layout_height="83dp"
+        android:fontFamily="@font/open_sans"
+        android:gravity="center"
+        android:text="MECCANICA &amp; MECCATRONICA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.155" />
 
-<ImageView
-android:id="@+id/imageView2"
-android:layout_width="155dp"
-android:layout_height="86dp"
-android:src="@drawable/meccanica_removebg_preview"
-app:layout_constraintBottom_toBottomOf="parent"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintHorizontal_bias="0.0"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toTopOf="parent"
-app:layout_constraintVertical_bias="0.172" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="155dp"
+        android:layout_height="86dp"
+        android:src="@drawable/meccanica_removebg_preview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.156" />
 
-<ScrollView
+    <ScrollView
 android:layout_width="382dp"
 android:layout_height="459dp"
 app:layout_constraintBottom_toBottomOf="parent"
@@ -61,25 +61,6 @@ app:layout_constraintVertical_bias="0.72">
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView13"
-        android:layout_width="match_parent"
-        android:layout_height="257dp"
-        android:fontFamily="@font/open_sans_light"
-        android:text="Il  diplomato  in  Meccanica  e  Meccatronica  trova  impiego  in  tutti  i  settori  industriali, con  diverse mansioni: progettista o  disegnatore CAD, gestore o  manutentore  di  impianti  automatizzati,  responsabile  della  qualità  e  della  sicurezza, esperto di organizzazione industriale e dell’ingegnerizzazione del  prodotto. La collaborazione, consolidata negli anni, con l’Unione Industriale  di  Torino  e  con  l’AMMA  (Aziende  Meccaniche  Meccatroniche  Associate)  garantisce  agli  studenti  del  Pininfarina  un  coinvolgimento  diretto  con  il  mondo industriale del territorio.  Il diploma dà accesso a tutte le facoltà universitarie e all’ITS (Istituto Tecnico  Superiore). "
-        android:textColor="#000000"
-        android:textSize="14sp"
-        android:textStyle="normal|bold" />
-
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="wrap_content"
-        android:layout_height="297dp"
-        android:text="Il  perito  in  Meccanica,  Meccatronica  ed  Energia  articolazione  Meccanica,  Meccatronica si specializza in tutte le fasi del processo industriale: dal progetto  al  prodotto,  dalla  scelta  dei  materiali  all’organizzazione  della  produzione,  dalla  gestione  dei  robot  industriali  alla  manutenzione  degli  impianti.  Grazie  ai  laboratori aggiornati, il Pininfarina offre una didattica all’avanguardia nel settore  del  CAD‐CAM  (AutoCAD,CATIA  V5,  CAM  ESPRIT),  delle  lavorazioni  tradizionali e  CNC  (HURCO  VM5i),  dell’energetica  (banco  prova  motore  e  banco  idraulico),  dell’automazione  e  della  robotica  utilizzando  il  braccio  robotizzato  COMAU.  Consolidata  nel  corso  di  Meccanica,  Meccatronica,  l’alternanza  scuola‐lavoro  (PROGETTO  “SISTEMA  DUALE”)  in  collaborazione  con  le  aziende  del  territorio,  favorisce  l'inserimento  dei  giovani  nel  mondo  del  lavoro  e  la  partecipazione  a  gare e concorsi. "
-        android:textColor="#000000"
-        android:textSize="14sp"
-        android:textStyle="normal" />
-
-    <TextView
         android:id="@+id/textView15"
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -102,25 +83,55 @@ app:layout_constraintVertical_bias="0.72">
     <TextView
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
-        android:layout_height="173dp"
+        android:layout_height="174dp"
+        android:fontFamily="@font/open_sans_light"
         android:text="Impianti energetici, disegno e progettazione ‐Il corso fornisce le competenze di  progettazione  e  gestione,  tecnica  ed  economica,  degli  impianti  idraulici,  di  riscaldamento,  di  condizionamento,  di  refrigerazione,  di  produzione  e  conversione dell’energia. Oltre la progettazione degli organi meccanici in genere,  con  riferimento  alla  produzione  di  disegni  costruttivi  con  AutoCAD  e  Catia  V5,    per  il  dimensionamento  e    il  disegno  degli  impianti    civili  e  industriali  si  usa  il  software  TERMOLOG. "
         android:textColor="#000000"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/open_sans_light"
+        android:text="Se vuoi scaricare il volantino completa clicca il link sotto."
+        android:textColor="#000000"
+        android:textColorLink="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Se vuoi scaricare il volantino completa clicca il link sotto." />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:fontFamily="@font/open_sans_light"
+        android:gravity="center"
+        android:text="urly.it/3hn_b"
+        android:textColor="#000000"
+        android:textColorLink="#000000"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform" />
+
 
 </LinearLayout>
 </ScrollView>
 
-<ImageView
-android:id="@+id/imageView"
-android:layout_width="413dp"
-android:layout_height="111dp"
-android:layout_marginTop="16dp"
-android:src="@drawable/screenshot__2__removebg_preview"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintHorizontal_bias="0.0"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toTopOf="parent" />
-<TextView
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="413dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/screenshot__2__removebg_preview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
 android:id="@+id/textView22"
 android:layout_width="418dp"
 android:layout_height="28dp"
