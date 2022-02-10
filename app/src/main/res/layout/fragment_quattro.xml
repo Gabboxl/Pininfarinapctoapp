@@ -4,23 +4,145 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UnoFragment">
+    tools:context=".UnoFragment"
+    >
 
+<TextView
+android:id="@+id/textView9"
+android:layout_width="248dp"
+android:layout_height="83dp"
+android:fontFamily="@font/open_sans"
+android:gravity="center"
+android:text="MECCANICA &amp; MECCATRONICA"
+android:textSize="24sp"
+android:textStyle="bold"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="1.0"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintVertical_bias="0.174" />
+
+<ImageView
+android:id="@+id/imageView2"
+android:layout_width="155dp"
+android:layout_height="86dp"
+android:src="@drawable/meccanica_removebg_preview"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.0"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintVertical_bias="0.172" />
+
+<ScrollView
+android:layout_width="382dp"
+android:layout_height="459dp"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.5"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintVertical_bias="0.72">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView9"
-        android:layout_width="248dp"
-        android:layout_height="83dp"
-        android:fontFamily="@font/open_sans"
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="Il  corso  fornisce  agli  studenti  la  capacità  di  affrontare la gestione ed il controllo dei processi industriali attraverso l'uso  delle  tecnologie informatiche e dei sistemi automatizzati. Durante il corso,  gli  studenti  apprendono  i  principi  fondamentali  dell'Elettrotecnica,  dell'Elettronica  e  le  loro  applicazioni  nel  campo  dell’automazione  industriale, della robotica e della meccatronica, con particolare riferimento  ai sistemi pneumatici e oleodinamici, ai controlli PLC e alla programmazione  e gestione dei robot. "
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="257dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="Il  diplomato  in  Meccanica  e  Meccatronica  trova  impiego  in  tutti  i  settori  industriali, con  diverse mansioni: progettista o  disegnatore CAD, gestore o  manutentore  di  impianti  automatizzati,  responsabile  della  qualità  e  della  sicurezza, esperto di organizzazione industriale e dell’ingegnerizzazione del  prodotto. La collaborazione, consolidata negli anni, con l’Unione Industriale  di  Torino  e  con  l’AMMA  (Aziende  Meccaniche  Meccatroniche  Associate)  garantisce  agli  studenti  del  Pininfarina  un  coinvolgimento  diretto  con  il  mondo industriale del territorio.  Il diploma dà accesso a tutte le facoltà universitarie e all’ITS (Istituto Tecnico  Superiore). "
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="297dp"
+        android:text="Il  perito  in  Meccanica,  Meccatronica  ed  Energia  articolazione  Meccanica,  Meccatronica si specializza in tutte le fasi del processo industriale: dal progetto  al  prodotto,  dalla  scelta  dei  materiali  all’organizzazione  della  produzione,  dalla  gestione  dei  robot  industriali  alla  manutenzione  degli  impianti.  Grazie  ai  laboratori aggiornati, il Pininfarina offre una didattica all’avanguardia nel settore  del  CAD‐CAM  (AutoCAD,CATIA  V5,  CAM  ESPRIT),  delle  lavorazioni  tradizionali e  CNC  (HURCO  VM5i),  dell’energetica  (banco  prova  motore  e  banco  idraulico),  dell’automazione  e  della  robotica  utilizzando  il  braccio  robotizzato  COMAU.  Consolidata  nel  corso  di  Meccanica,  Meccatronica,  l’alternanza  scuola‐lavoro  (PROGETTO  “SISTEMA  DUALE”)  in  collaborazione  con  le  aziende  del  territorio,  favorisce  l'inserimento  dei  giovani  nel  mondo  del  lavoro  e  la  partecipazione  a  gare e concorsi. "
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/open_sans_semibold"
         android:gravity="center"
-        android:text="sette"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.981"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="MATERIE DI INDIRIZZO"
+        android:textColor="#F44336"
+        android:textStyle="bold" />
 
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="539dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="Meccanica,  macchine  ed  energia  ‐  Il  corso  ha  lo  scopo  di  fornire  le  competenze  di  dimensionamento  degli  organi  meccanici  (con  metodi  tradizionali, ma anche innovativi come l’analisi agli elementi finiti) in campo  statico  e  dinamico,  di  progettazione  e  gestione  dei  sistemi  idraulici,  termotecnica, motoristici e di produzione dell’energia.  Tecnologie  meccaniche  di  processo  e  di  prodotto  ‐  Il  corso  fornisce  le  competenze  nei  campi  della  scienza  dei  materiali,  dei  processi  produttivi  tradizionali  e  innovativi,  dei  controlli  di  qualità  e  della  sicurezza  sul  lavoro.  Particolare  attenzione  è  riservata  alla  didattica  laboratoriale  in  cui  si  utilizzano  macchine  utensili  tradizionali  e  CNC,  macchine  di  prova  per  la  caratterizzazione  dei  materiali  e  innovative  stampanti  tridimensionale  per  particolari in plastica.  Disegno,  progettazione  e  organizzazione  industriale  ‐  Il  corso  intende  fornire le competenze di progettazione di sistemi meccanici, di produzione di  disegni  costruttivi  di  particolare  e  d'insieme  e  di  redazione  dei  cicli  di  fabbricazione. Sono usati a questo scopo i software AutoCAD, CATIA V5 per la  modellazione  solida,  CAM  ESPRIT  per  la  programmazione  dei  percorsi  utensili.  Fornisce  inoltre  solide  competenze  riguardanti  l'organizzazione,  la  gestione  e  l'analisi  dei  costi  della  produzione  industriale,  nel  rispetto  delle  norme antinfortunistiche, di sicurezza del lavoro e di tutela dell'ambiente."
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="165dp"
+        android:text="Impianti energetici, disegno e progettazione ‐Il corso fornisce le competenze di  progettazione  e  gestione,  tecnica  ed  economica,  degli  impianti  idraulici,  di  riscaldamento,  di  condizionamento,  di  refrigerazione,  di  produzione  e  conversione dell’energia. Oltre la progettazione degli organi meccanici in genere,  con  riferimento  alla  produzione  di  disegni  costruttivi  con  AutoCAD  e  Catia  V5,    per  il  dimensionamento  e    il  disegno  degli  impianti    civili  e  industriali  si  usa  il  software  TERMOLOG. "
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+</LinearLayout>
+</ScrollView>
+
+<ImageView
+android:id="@+id/imageView"
+android:layout_width="413dp"
+android:layout_height="111dp"
+android:layout_marginTop="16dp"
+android:src="@drawable/screenshot__2__removebg_preview"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.0"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent" />
+<TextView
+android:id="@+id/textView22"
+android:layout_width="418dp"
+android:layout_height="28dp"
+android:text="__________________________________________________________________"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.0"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintVertical_bias="0.939" />
+
+<TextView
+android:id="@+id/textView19"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginBottom="16dp"
+android:fontFamily="@font/comfortaa_light"
+android:text="@ Copyright 2022 | Engineered and powered by G.F.M.E"
+android:textColor="#000000"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+android:textStyle="bold"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
