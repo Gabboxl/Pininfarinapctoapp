@@ -30,21 +30,22 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.127" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.03" />
 
     <TextView
         android:id="@+id/textView22"
-        android:layout_width="379dp"
+        android:layout_width="0dp"
         android:layout_height="162dp"
         android:fontFamily="@font/open_sans_light"
         android:text="Il Pininfarina è un istituto tecnico industriale statale , interamente cablato, attrezzato con laboratori e aule di informatica. Dispone di oltre 800 computer, ogni aula possiede una lavagna Lim e la strumentazione per poter effettuare anche lezioni di didattica a distanza. Vi sono, inoltre, laboratori di matematica, inglese, fisica, chimica, robotica, biotecnologie, scienze, disegno, meccanica, tecnologia elettronica, sistemi elettronici. "
         android:textAllCaps="false"
+        android:textColor="#000000"
         android:textStyle="bold"
         app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.24" />
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:layout_constraintVertical_bias="0.063" />
 </androidx.constraintlayout.widget.ConstraintLayout>

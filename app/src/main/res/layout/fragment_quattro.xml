@@ -9,8 +9,9 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="248dp"
+        android:layout_width="0dp"
         android:layout_height="83dp"
+        android:layout_marginTop="14dp"
         android:fontFamily="@font/open_sans"
         android:gravity="center"
         android:text="MECCANICA &amp; MECCATRONICA"
@@ -19,107 +20,107 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.155" />
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="155dp"
         android:layout_height="86dp"
+        android:layout_marginTop="15dp"
         android:src="@drawable/meccanica_removebg_preview"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.156" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ScrollView
-android:layout_width="382dp"
-android:layout_height="459dp"
-app:layout_constraintBottom_toBottomOf="parent"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintHorizontal_bias="0.5"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toTopOf="parent"
-app:layout_constraintVertical_bias="0.72">
-
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="match_parent"
-        android:layout_height="192dp"
-        android:fontFamily="@font/open_sans_light"
-        android:text="Il  corso  fornisce  agli  studenti  la  capacità  di  affrontare la gestione ed il controllo dei processi industriali attraverso l'uso  delle  tecnologie informatiche e dei sistemi automatizzati. Durante il corso,  gli  studenti  apprendono  i  principi  fondamentali  dell'Elettrotecnica,  dell'Elettronica  e  le  loro  applicazioni  nel  campo  dell’automazione  industriale, della robotica e della meccatronica, con particolare riferimento  ai sistemi pneumatici e oleodinamici, ai controlli PLC e alla programmazione  e gestione dei robot. "
-
-        android:textSize="14sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:fontFamily="@font/open_sans_semibold"
-        android:gravity="center"
-        android:text="MATERIE DI INDIRIZZO"
-        android:textColor="#F44336"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="match_parent"
-        android:layout_height="539dp"
-        android:fontFamily="@font/open_sans_light"
-        android:text="Meccanica,  macchine  ed  energia  ‐  Il  corso  ha  lo  scopo  di  fornire  le  competenze  di  dimensionamento  degli  organi  meccanici  (con  metodi  tradizionali, ma anche innovativi come l’analisi agli elementi finiti) in campo  statico  e  dinamico,  di  progettazione  e  gestione  dei  sistemi  idraulici,  termotecnica, motoristici e di produzione dell’energia.  Tecnologie  meccaniche  di  processo  e  di  prodotto  ‐  Il  corso  fornisce  le  competenze  nei  campi  della  scienza  dei  materiali,  dei  processi  produttivi  tradizionali  e  innovativi,  dei  controlli  di  qualità  e  della  sicurezza  sul  lavoro.  Particolare  attenzione  è  riservata  alla  didattica  laboratoriale  in  cui  si  utilizzano  macchine  utensili  tradizionali  e  CNC,  macchine  di  prova  per  la  caratterizzazione  dei  materiali  e  innovative  stampanti  tridimensionale  per  particolari in plastica.  Disegno,  progettazione  e  organizzazione  industriale  ‐  Il  corso  intende  fornire le competenze di progettazione di sistemi meccanici, di produzione di  disegni  costruttivi  di  particolare  e  d'insieme  e  di  redazione  dei  cicli  di  fabbricazione. Sono usati a questo scopo i software AutoCAD, CATIA V5 per la  modellazione  solida,  CAM  ESPRIT  per  la  programmazione  dei  percorsi  utensili.  Fornisce  inoltre  solide  competenze  riguardanti  l'organizzazione,  la  gestione  e  l'analisi  dei  costi  della  produzione  industriale,  nel  rispetto  delle  norme antinfortunistiche, di sicurezza del lavoro e di tutela dell'ambiente."
-        android:textSize="14sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView24"
-        android:layout_width="wrap_content"
-        android:layout_height="174dp"
-        android:fontFamily="@font/open_sans_light"
-        android:text="Impianti energetici, disegno e progettazione ‐Il corso fornisce le competenze di  progettazione  e  gestione,  tecnica  ed  economica,  degli  impianti  idraulici,  di  riscaldamento,  di  condizionamento,  di  refrigerazione,  di  produzione  e  conversione dell’energia. Oltre la progettazione degli organi meccanici in genere,  con  riferimento  alla  produzione  di  disegni  costruttivi  con  AutoCAD  e  Catia  V5,    per  il  dimensionamento  e    il  disegno  degli  impianti    civili  e  industriali  si  usa  il  software  TERMOLOG. "
-
-        android:textSize="14sp"
-        android:textStyle="bold"/>
-
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="match_parent"
-        android:layout_height="32dp"
-        android:fontFamily="@font/open_sans_light"
-        android:text="Se vuoi scaricare il volantino completo clicca il link sotto."
-        android:textStyle="bold"
+        android:layout_width="382dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.72">
 
-    <TextView
-        android:id="@+id/textView26"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:autoLink="web"
-        android:fontFamily="@font/open_sans_light"
-        android:gravity="center"
-        android:text="urly.it/3hn_b"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-        android:textStyle="bold"
-        app:autoSizeTextType="uniform" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="192dp"
+                android:fontFamily="@font/open_sans_light"
+                android:text="Il  corso  fornisce  agli  studenti  la  capacità  di  affrontare la gestione ed il controllo dei processi industriali attraverso l'uso  delle  tecnologie informatiche e dei sistemi automatizzati. Durante il corso,  gli  studenti  apprendono  i  principi  fondamentali  dell'Elettrotecnica,  dell'Elettronica  e  le  loro  applicazioni  nel  campo  dell’automazione  industriale, della robotica e della meccatronica, con particolare riferimento  ai sistemi pneumatici e oleodinamici, ai controlli PLC e alla programmazione  e gestione dei robot. "
+
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/open_sans_semibold"
+                android:gravity="center"
+                android:text="MATERIE DI INDIRIZZO"
+                android:textColor="#F44336"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="539dp"
+                android:fontFamily="@font/open_sans_light"
+                android:text="Meccanica,  macchine  ed  energia  ‐  Il  corso  ha  lo  scopo  di  fornire  le  competenze  di  dimensionamento  degli  organi  meccanici  (con  metodi  tradizionali, ma anche innovativi come l’analisi agli elementi finiti) in campo  statico  e  dinamico,  di  progettazione  e  gestione  dei  sistemi  idraulici,  termotecnica, motoristici e di produzione dell’energia.  Tecnologie  meccaniche  di  processo  e  di  prodotto  ‐  Il  corso  fornisce  le  competenze  nei  campi  della  scienza  dei  materiali,  dei  processi  produttivi  tradizionali  e  innovativi,  dei  controlli  di  qualità  e  della  sicurezza  sul  lavoro.  Particolare  attenzione  è  riservata  alla  didattica  laboratoriale  in  cui  si  utilizzano  macchine  utensili  tradizionali  e  CNC,  macchine  di  prova  per  la  caratterizzazione  dei  materiali  e  innovative  stampanti  tridimensionale  per  particolari in plastica.  Disegno,  progettazione  e  organizzazione  industriale  ‐  Il  corso  intende  fornire le competenze di progettazione di sistemi meccanici, di produzione di  disegni  costruttivi  di  particolare  e  d'insieme  e  di  redazione  dei  cicli  di  fabbricazione. Sono usati a questo scopo i software AutoCAD, CATIA V5 per la  modellazione  solida,  CAM  ESPRIT  per  la  programmazione  dei  percorsi  utensili.  Fornisce  inoltre  solide  competenze  riguardanti  l'organizzazione,  la  gestione  e  l'analisi  dei  costi  della  produzione  industriale,  nel  rispetto  delle  norme antinfortunistiche, di sicurezza del lavoro e di tutela dell'ambiente."
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="174dp"
+                android:fontFamily="@font/open_sans_light"
+                android:text="Impianti energetici, disegno e progettazione ‐Il corso fornisce le competenze di  progettazione  e  gestione,  tecnica  ed  economica,  degli  impianti  idraulici,  di  riscaldamento,  di  condizionamento,  di  refrigerazione,  di  produzione  e  conversione dell’energia. Oltre la progettazione degli organi meccanici in genere,  con  riferimento  alla  produzione  di  disegni  costruttivi  con  AutoCAD  e  Catia  V5,    per  il  dimensionamento  e    il  disegno  degli  impianti    civili  e  industriali  si  usa  il  software  TERMOLOG. "
+
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:fontFamily="@font/open_sans_light"
+                android:text="Se vuoi scaricare il volantino completo clicca il link sotto."
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:fontFamily="@font/open_sans_light"
+                android:gravity="center"
+                android:text="urly.it/3hn_b"
+
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform" />
 
 
-</LinearLayout>
-</ScrollView>
+        </LinearLayout>
+    </ScrollView>
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="413dp"
+        android:layout_width="wrap_content"
         android:layout_height="111dp"
-        android:layout_marginTop="4dp"
         android:src="@drawable/screenshot__2__removebg_preview"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

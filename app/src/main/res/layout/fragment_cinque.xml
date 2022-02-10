@@ -16,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.02" />
+        app:layout_constraintVertical_bias="0.019" />
 
     <TextView
         android:id="@+id/textView21"
@@ -33,26 +33,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.158" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView23"
-        android:layout_width="384dp"
+        android:layout_width="0dp"
         android:layout_height="190dp"
         android:fontFamily="@font/open_sans_light"
         android:text="Noi siamo i G.F.M.E , quattro studenti della 4°A Informatica dell'ITIS PININFARINA appassionati di informatica e del mondo della programmazione. Questa app è nata come progetto di PCTO, ed il nostro scopo è di renderla sempre migliore per poi offrirla a tutti gli studenti ed il personale della scuola.                                                                                   I nostri nomi sono Gabriele Castelli, Francesco Roscia, Mattia Del Grosso ed Eric Marian Stoicescu"
 
-        android:textStyle="bold"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintHorizontal_bias="0.592"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.281"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:layout_constraintVertical_bias="0.053" />
 
     <TextView
         android:id="@+id/textView17"

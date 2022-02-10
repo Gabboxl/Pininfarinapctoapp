@@ -1,13 +1,17 @@
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="329dp"
-        android:layout_height="88dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:fontFamily="@font/open_sans_light"
         android:gravity="center"
         android:text="BENVENUTI SULLA NUOVA APP DELL'ITIS PININFARINA"
@@ -16,12 +20,11 @@
         android:textStyle="bold"
         android:visibility="visible"
         app:autoSizeTextType="uniform"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/slider"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.548"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.175" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <com.denzcoskun.imageslider.ImageSlider
         android:id="@+id/slider"
@@ -32,16 +35,17 @@
         app:iss_corner_radius="20"
         app:iss_delay="0"
         app:iss_error_image="@color/purple_700"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:iss_period="3000"
         app:iss_placeholder="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
         tools:layout_editor_absoluteX="16dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="136dp"
-        android:layout_height="32dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
         android:background="#0003A9F4"
         android:clickable="true"
         android:fontFamily="@font/open_sans_light"
@@ -50,12 +54,8 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold"
         app:autoSizeTextType="uniform"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.527"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.683" />
+        app:layout_constraintTop_toBottomOf="@+id/slider"
+        tools:layout_editor_absoluteX="145dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -71,8 +71,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.537"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.73" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView4"
@@ -86,13 +86,14 @@
         app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.775" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.005" />
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="371dp"
+        android:layout_width="0dp"
         android:layout_height="45dp"
         android:autoLink="all"
         android:fontFamily="@font/open_sans_light"
@@ -103,10 +104,10 @@
         app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.675"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.901" />
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView5"
@@ -122,16 +123,16 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="411dp"
+        android:layout_width="0dp"
         android:layout_height="40dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/open_sans_light"
         android:gravity="center"
         android:text="@ Copyright 2022 | Engineered and powered by G.F.M.E"
         android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -149,13 +150,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.829" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.0" />
 
     <androidx.constraintlayout.widget.Barrier
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:barrierDirection="top"
+        app:constraint_referenced_ids="textView7,textView5"
         tools:layout_editor_absoluteX="205dp"
         tools:layout_editor_absoluteY="813dp" />
 
@@ -163,7 +165,6 @@
         android:id="@+id/imageView3"
         android:layout_width="416dp"
         android:layout_height="114dp"
-        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -171,3 +172,4 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
