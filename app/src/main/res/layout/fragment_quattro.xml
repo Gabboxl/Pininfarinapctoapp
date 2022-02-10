@@ -56,7 +56,7 @@ app:layout_constraintVertical_bias="0.72">
         android:layout_height="192dp"
         android:fontFamily="@font/open_sans_light"
         android:text="Il  corso  fornisce  agli  studenti  la  capacità  di  affrontare la gestione ed il controllo dei processi industriali attraverso l'uso  delle  tecnologie informatiche e dei sistemi automatizzati. Durante il corso,  gli  studenti  apprendono  i  principi  fondamentali  dell'Elettrotecnica,  dell'Elettronica  e  le  loro  applicazioni  nel  campo  dell’automazione  industriale, della robotica e della meccatronica, con particolare riferimento  ai sistemi pneumatici e oleodinamici, ai controlli PLC e alla programmazione  e gestione dei robot. "
-        android:textColor="#000000"
+
         android:textSize="14sp"
         android:textStyle="bold" />
 
@@ -76,7 +76,6 @@ app:layout_constraintVertical_bias="0.72">
         android:layout_height="539dp"
         android:fontFamily="@font/open_sans_light"
         android:text="Meccanica,  macchine  ed  energia  ‐  Il  corso  ha  lo  scopo  di  fornire  le  competenze  di  dimensionamento  degli  organi  meccanici  (con  metodi  tradizionali, ma anche innovativi come l’analisi agli elementi finiti) in campo  statico  e  dinamico,  di  progettazione  e  gestione  dei  sistemi  idraulici,  termotecnica, motoristici e di produzione dell’energia.  Tecnologie  meccaniche  di  processo  e  di  prodotto  ‐  Il  corso  fornisce  le  competenze  nei  campi  della  scienza  dei  materiali,  dei  processi  produttivi  tradizionali  e  innovativi,  dei  controlli  di  qualità  e  della  sicurezza  sul  lavoro.  Particolare  attenzione  è  riservata  alla  didattica  laboratoriale  in  cui  si  utilizzano  macchine  utensili  tradizionali  e  CNC,  macchine  di  prova  per  la  caratterizzazione  dei  materiali  e  innovative  stampanti  tridimensionale  per  particolari in plastica.  Disegno,  progettazione  e  organizzazione  industriale  ‐  Il  corso  intende  fornire le competenze di progettazione di sistemi meccanici, di produzione di  disegni  costruttivi  di  particolare  e  d'insieme  e  di  redazione  dei  cicli  di  fabbricazione. Sono usati a questo scopo i software AutoCAD, CATIA V5 per la  modellazione  solida,  CAM  ESPRIT  per  la  programmazione  dei  percorsi  utensili.  Fornisce  inoltre  solide  competenze  riguardanti  l'organizzazione,  la  gestione  e  l'analisi  dei  costi  della  produzione  industriale,  nel  rispetto  delle  norme antinfortunistiche, di sicurezza del lavoro e di tutela dell'ambiente."
-        android:textColor="#000000"
         android:textSize="14sp"
         android:textStyle="bold" />
 
@@ -86,7 +85,7 @@ app:layout_constraintVertical_bias="0.72">
         android:layout_height="174dp"
         android:fontFamily="@font/open_sans_light"
         android:text="Impianti energetici, disegno e progettazione ‐Il corso fornisce le competenze di  progettazione  e  gestione,  tecnica  ed  economica,  degli  impianti  idraulici,  di  riscaldamento,  di  condizionamento,  di  refrigerazione,  di  produzione  e  conversione dell’energia. Oltre la progettazione degli organi meccanici in genere,  con  riferimento  alla  produzione  di  disegni  costruttivi  con  AutoCAD  e  Catia  V5,    per  il  dimensionamento  e    il  disegno  degli  impianti    civili  e  industriali  si  usa  il  software  TERMOLOG. "
-        android:textColor="#000000"
+
         android:textSize="14sp"
         android:textStyle="bold"/>
 
@@ -97,8 +96,7 @@ app:layout_constraintVertical_bias="0.72">
         android:textStyle="bold"
         android:fontFamily="@font/open_sans_light"
         android:text="Se vuoi scaricare il volantino completa clicca il link sotto."
-        android:textColor="#000000"
-        android:textColorLink="#000000"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:text="Se vuoi scaricare il volantino completa clicca il link sotto." />
@@ -111,8 +109,7 @@ app:layout_constraintVertical_bias="0.72">
         android:fontFamily="@font/open_sans_light"
         android:gravity="center"
         android:text="urly.it/3hn_b"
-        android:textColor="#000000"
-        android:textColorLink="#000000"
+
         android:textStyle="bold"
         app:autoSizeTextType="uniform" />
 
@@ -131,29 +128,5 @@ app:layout_constraintVertical_bias="0.72">
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-android:id="@+id/textView22"
-android:layout_width="418dp"
-android:layout_height="28dp"
-android:text="__________________________________________________________________"
-app:layout_constraintBottom_toBottomOf="parent"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintHorizontal_bias="0.0"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toTopOf="parent"
-app:layout_constraintVertical_bias="0.939" />
-
-<TextView
-android:id="@+id/textView19"
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:layout_marginBottom="16dp"
-android:fontFamily="@font/comfortaa_light"
-android:text="@ Copyright 2022 | Engineered and powered by G.F.M.E"
-android:textColor="#000000"
-app:layout_constraintBottom_toBottomOf="parent"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintStart_toStartOf="parent"
-android:textStyle="bold"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
