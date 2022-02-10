@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
 
+
+        <group android:checkableBehavior="single"
+            android:id="@+id/group1">
     <item
         android:id="@+id/principaleFragment"
-        android:enabled="true"
 
-        android:title="principale"/>
+        android:title="Pagina principale"/>
+
+    </group>
+
+
+<group android:checkableBehavior="single"
+    android:id="@+id/group2">
     <item
         android:id="@+id/unoFragment"
-        android:enabled="true"
 
-        android:title="uno"/>
+        android:title="Informatica"/>
     <item
         android:id="@+id/dueFragment"
-        android:enabled="true"
 
-        android:title="due"/>
+        android:title="Chimica &amp; Biotecnologie"/>
 
     <item
         android:id="@+id/treFragment"
-        android:enabled="true"
+        android:title="Frammento 3"/>
+        </group>
 
-        android:title="tre"/>
 </menu>
