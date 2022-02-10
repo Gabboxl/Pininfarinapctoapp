@@ -9,7 +9,7 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/principaleFragment"
-
+            android:icon="@drawable/ic_round_home_24"
             android:title="Pagina principale" />
 
     </group>
@@ -20,15 +20,16 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/unoFragment"
-
+            android:icon="@drawable/ic_baseline_computer_24"
             android:title="Informatica" />
         <item
             android:id="@+id/dueFragment"
-
+            android:icon="@drawable/ic_baseline_science_24"
             android:title="Chimica &amp; Biotecnologie" />
 
         <item
             android:id="@+id/treFragment"
+            android:icon="@drawable/ic_baseline_electrical_services_24"
             android:title="Elettronica ed Elettrotecnica" />
 
         <item
@@ -55,6 +56,7 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/cinqueFragment"
+            android:icon="@drawable/ic_baseline_info_24"
             android:title="Chi siamo" />
     </group>
 
