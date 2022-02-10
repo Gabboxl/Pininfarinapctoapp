@@ -3,24 +3,24 @@
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-<TextView
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:layout_marginTop="24dp"
-android:layout_marginStart="24dp"
-android:layout_marginEnd="24dp"
-android:textAppearance="?attr/textAppearanceHeadlineSmall"
-android:textColor="?attr/colorOnSurface"
-android:text="Ciao" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="ITIS Pininfarina"
+        android:textAppearance="?attr/textAppearanceHeadlineSmall"
+        android:textColor="?attr/colorOnSurface" />
 
-<TextView
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:layout_marginBottom="24dp"
-android:layout_marginStart="24dp"
-android:layout_marginEnd="24dp"
-android:textAppearance="?attr/textAppearanceTitleSmall"
-android:textColor="?attr/colorOnSurfaceVariant"
-android:text="bella" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:text="Menù"
+        android:textAppearance="?attr/textAppearanceTitleSmall"
+        android:textColor="?attr/colorOnSurfaceVariant" />
 
     </LinearLayout>
