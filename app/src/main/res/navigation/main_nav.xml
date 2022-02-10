@@ -35,12 +35,12 @@
     <fragment
         android:id="@+id/cinqueFragment"
         android:name="com.example.itispininfarina.CinqueFragment"
-        android:label="Chi siamo"
+        android:label="Chi siamo (Sviluppatori)"
         tools:layout="@layout/fragment_cinque" />
     <fragment
         android:id="@+id/seiFragment"
         android:name="com.example.itispininfarina.SeiFragment"
-        android:label="boh"
+        android:label="Chi siamo (Scuola)"
         tools:layout="@layout/fragment_sei" />
     <fragment
         android:id="@+id/setteFragment"

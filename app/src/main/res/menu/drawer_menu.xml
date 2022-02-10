@@ -39,7 +39,7 @@
 
         <item
             android:id="@+id/seiFragment"
-            android:title="Frammento 6" />
+            android:title="Chi siamo (Scuola)" />
 
         <item
             android:id="@+id/setteFragment"
@@ -58,7 +58,7 @@
         <item
             android:id="@+id/cinqueFragment"
             android:icon="@drawable/ic_baseline_info_24"
-            android:title="Chi siamo" />
+            android:title="Chi siamo (Sviluppatori)" />
     </group>
 
 </menu>

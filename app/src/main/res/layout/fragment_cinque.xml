@@ -25,7 +25,7 @@
         android:layout_marginStart="16dp"
         android:fontFamily="@font/open_sans_bold"
         android:gravity="center"
-        android:text="CHI SIAMO?"
+        android:text="CHI SIAMO"
         android:textColor="#F44336"
         android:textSize="24sp"
         app:autoSizeTextType="none"
