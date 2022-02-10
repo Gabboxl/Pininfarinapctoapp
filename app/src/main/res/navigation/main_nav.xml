@@ -29,27 +29,27 @@
 
     <fragment
         android:id="@+id/quattroFragment"
-        android:name="com.example.itispininfarina.UnoFragment"
+        android:name="com.example.itispininfarina.QuattroFragment"
         android:label="Informatica"
         tools:layout="@layout/fragment_quattro" />
     <fragment
         android:id="@+id/cinqueFragment"
-        android:name="com.example.itispininfarina.DueFragment"
+        android:name="com.example.itispininfarina.CinqueFragment"
         android:label="Chimica &amp; Biotecnologie"
         tools:layout="@layout/fragment_cinque" />
     <fragment
         android:id="@+id/seiFragment"
-        android:name="com.example.itispininfarina.TreFragment"
+        android:name="com.example.itispininfarina.SeiFragment"
         android:label="boh"
         tools:layout="@layout/fragment_sei" />
     <fragment
         android:id="@+id/setteFragment"
-        android:name="com.example.itispininfarina.TreFragment"
+        android:name="com.example.itispininfarina.SetteFragment"
         android:label="boh"
         tools:layout="@layout/fragment_sette" />
     <fragment
         android:id="@+id/ottoFragment"
-        android:name="com.example.itispininfarina.TreFragment"
+        android:name="com.example.itispininfarina.OttoFragment"
         android:label="boh"
         tools:layout="@layout/fragment_otto" />
 

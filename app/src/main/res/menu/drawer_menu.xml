@@ -27,15 +27,11 @@
 
     <item
         android:id="@+id/treFragment"
-        android:title="Frammento 3"/>
+        android:title="Elettronica ed Elettrotecnica"/>
 
     <item
         android:id="@+id/quattroFragment"
-        android:title="Frammento 4"/>
-
-    <item
-        android:id="@+id/cinqueFragment"
-        android:title="Frammento 5"/>
+        android:title="Meccanica &amp; Meccatronica"/>
 
     <item
         android:id="@+id/seiFragment"
@@ -48,6 +44,15 @@
     <item
         android:id="@+id/ottoFragment"
         android:title="Frammento 8"/>
+
+
         </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group3">
+    <item
+        android:id="@+id/cinqueFragment"
+        android:title="Chi siamo"/>
+    </group>
 
 </menu>
