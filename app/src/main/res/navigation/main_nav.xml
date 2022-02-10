@@ -24,18 +24,18 @@
     <fragment
         android:id="@+id/treFragment"
         android:name="com.example.itispininfarina.TreFragment"
-        android:label="boh"
+        android:label="Elettronica ed Elettrotecnica"
         tools:layout="@layout/fragment_tre" />
 
     <fragment
         android:id="@+id/quattroFragment"
         android:name="com.example.itispininfarina.QuattroFragment"
-        android:label="Informatica"
+        android:label="Meccanica &amp; Meccatronica"
         tools:layout="@layout/fragment_quattro" />
     <fragment
         android:id="@+id/cinqueFragment"
         android:name="com.example.itispininfarina.CinqueFragment"
-        android:label="Chimica &amp; Biotecnologie"
+        android:label="Chi siamo"
         tools:layout="@layout/fragment_cinque" />
     <fragment
         android:id="@+id/seiFragment"
