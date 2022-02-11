@@ -1,137 +1,139 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UnoFragment">
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="248dp"
-        android:layout_height="83dp"
-        android:fontFamily="@font/open_sans"
-        android:gravity="center"
-        android:text="CORSO DI CHIMICA &amp; BIOTECNOLOGIE"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.024" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".UnoFragment">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="155dp"
-        android:layout_height="86dp"
-        android:src="@drawable/biotecnologie_removebg_preview"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.02" />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="0dp"
+            android:layout_height="83dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/open_sans_light"
+            android:gravity="center"
+            android:text="CORSO DI CHIMICA &amp; BIOTECNOLOGIE"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-    <ScrollView
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="86dp"
+            android:src="@drawable/biotecnologie_removebg_preview"
+            app:layout_constraintEnd_toStartOf="@+id/textView9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="394dp"
+            android:layout_height="298dp"
+            android:layout_marginTop="28dp"
+
+            android:fontFamily="@font/open_sans_light"
+            android:text=" La  chimica  bio‐organica  si  occupa  dello  studio  degli  idrocarburi  (saturi,  insaturi,  aromatici)  e  dei  composti  contenenti  gruppi  funzionali  (alcoli,  composti  carbonici,  acidi  carbossilici  e  derivati, ammine) al fine di comprendere i principali meccanismi di reazione  e  la  correlazione  tra  struttura  molecolare  e  proprietà  chimiche  e  chimico  fisiche.  Nel  corso  del  triennio  si  affronta  lo  studio  delle  caratteristiche  strutturali  e  funzionali  delle  biomolecole  (glucidi,  lipidi,  proteine,  acidi  nucleici)  e  quello  della  catalisi  enzimatica  e  dell’energia  in  biochimica  in  modo tale da porre le basi per la logica comprensione dei principali processi  metabolici. Nella trattazione dei contenuti si mettono in evidenza gli aspetti  applicativi della disciplina e le correlazioni con la vita quotidiana. "
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="392dp"
+            android:layout_height="179dp"
+
+            android:fontFamily="@font/open_sans_light"
+            android:text="Fisica ambientale ‐ La fisica ambientale studia la produzione di energia e le  sue  trasformazioni,  con  particolare  riferimento  all’ambiente;  esamina  poi  i  problemi degli inquinanti di tipo fisico, in particolare il rumore, le radiazioni  non  ionizzanti  (campi  elettromagnetici)  e  quelle  ionizzanti  (radiazioni  nucleari).  Nell’ambito  della  fisica  ambientale  si  riprendono  le  tecniche  di  misura, la normativa sugli inquinanti di tipo fisico e i loro effetti biologici."
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="0dp"
+            android:layout_height="19dp"
+            android:fontFamily="@font/open_sans_semibold"
+            android:gravity="center"
+            android:text="MATERIE DI INDIRIZZO"
+            android:textColor="#F44336"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="392dp"
+            android:layout_height="266dp"
+
+            android:fontFamily="@font/open_sans_light"
+            android:text="Biologia,  microbiologia  e  tecniche  di  controllo  ambientale  ‐ Vengono  studiati  argomenti  di  biologia,  dalla  struttura  della  cellula  agli  ecosistemi,  e  di  microbiologia,  con  particolare  riferimento  a  quei  microrganismi  sfruttati  in  moltissime  applicazioni  biotecnologiche,  per  esempio  nella  bonifica  di  aree  inquinate.  La  pratica  di  laboratorio  permette  agli  allievi  di  analizzare  i  fenomeni  biologici  oggetto  di  studio:  osservare  i  microrganismi  con  il  microscopio  e  mediante  terreni  di  coltura,  individuare  i  principali  inquinanti  di  aria,  acqua  e  terreno;  approfondire  la  tecnologia  di  recupero  energetico  dei  rifiuti.  Viene  affrontato inoltre lo studio delle biotecnologie e delle loro applicazioni ambientali.  "
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="392dp"
+            android:layout_height="231dp"
+
+            android:fontFamily="@font/open_sans_light"
+            android:text="Chimica analitica e strumentale ‐ La chimica analitica permette di individuare  la  composizione  di  campioni  di  origine  naturale  o  artificiale  individuando  i  componenti presenti e la loro abbondanza (concentrazione).  Nel  corso  del  triennio  vengono  affrontate  tecniche  di  tipo  qualitativo,  che  permettono  di  individuare  le  sostanze  presenti  nei  campioni,  tecniche  di  tipo  quantitativo,  che  consentono  di  stabilire  la  quantità  dei  diversi  componenti  impiegando sia tecniche tradizionali che tecniche di tipo strumentale, attribuendo  la  massima  importanza  sia  agli  aspetti  pratici  sia  alle  basi  teoriche  delle  metodologie impiegate"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="389dp"
+            android:layout_height="22dp"
+            android:fontFamily="@font/open_sans_light"
+            android:text="Se vuoi scaricare il volantino completo clicca il link sotto."
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="78dp"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:autoLink="web"
+            android:fontFamily="@font/open_sans_light"
+            android:gravity="center"
+            android:text="urly.it/3hn_8"
 
-            <TextView
-                android:id="@+id/textView10"
-                android:layout_width="match_parent"
-                android:layout_height="297dp"
-                android:fontFamily="@font/open_sans_light"
-                android:text=" La  chimica  bio‐organica  si  occupa  dello  studio  degli  idrocarburi  (saturi,  insaturi,  aromatici)  e  dei  composti  contenenti  gruppi  funzionali  (alcoli,  composti  carbonici,  acidi  carbossilici  e  derivati, ammine) al fine di comprendere i principali meccanismi di reazione  e  la  correlazione  tra  struttura  molecolare  e  proprietà  chimiche  e  chimico  fisiche.  Nel  corso  del  triennio  si  affronta  lo  studio  delle  caratteristiche  strutturali  e  funzionali  delle  biomolecole  (glucidi,  lipidi,  proteine,  acidi  nucleici)  e  quello  della  catalisi  enzimatica  e  dell’energia  in  biochimica  in  modo tale da porre le basi per la logica comprensione dei principali processi  metabolici. Nella trattazione dei contenuti si mettono in evidenza gli aspetti  applicativi della disciplina e le correlazioni con la vita quotidiana. "
+            android:textStyle="bold"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView13"
-                android:layout_width="match_parent"
-                android:layout_height="180dp"
-                android:fontFamily="@font/open_sans_light"
-                android:text="Fisica ambientale ‐ La fisica ambientale studia la produzione di energia e le  sue  trasformazioni,  con  particolare  riferimento  all’ambiente;  esamina  poi  i  problemi degli inquinanti di tipo fisico, in particolare il rumore, le radiazioni  non  ionizzanti  (campi  elettromagnetici)  e  quelle  ionizzanti  (radiazioni  nucleari).  Nell’ambito  della  fisica  ambientale  si  riprendono  le  tecniche  di  misura, la normativa sugli inquinanti di tipo fisico e i loro effetti biologici."
-
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView15"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:fontFamily="@font/open_sans_semibold"
-                android:gravity="center"
-                android:text="MATERIE DI INDIRIZZO"
-                android:textColor="#F44336"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView17"
-                android:layout_width="match_parent"
-                android:layout_height="276dp"
-                android:fontFamily="@font/open_sans_light"
-                android:text="Biologia,  microbiologia  e  tecniche  di  controllo  ambientale  ‐ Vengono  studiati  argomenti  di  biologia,  dalla  struttura  della  cellula  agli  ecosistemi,  e  di  microbiologia,  con  particolare  riferimento  a  quei  microrganismi  sfruttati  in  moltissime  applicazioni  biotecnologiche,  per  esempio  nella  bonifica  di  aree  inquinate.  La  pratica  di  laboratorio  permette  agli  allievi  di  analizzare  i  fenomeni  biologici  oggetto  di  studio:  osservare  i  microrganismi  con  il  microscopio  e  mediante  terreni  di  coltura,  individuare  i  principali  inquinanti  di  aria,  acqua  e  terreno;  approfondire  la  tecnologia  di  recupero  energetico  dei  rifiuti.  Viene  affrontato inoltre lo studio delle biotecnologie e delle loro applicazioni ambientali.  "
-
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView20"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/open_sans_light"
-                android:text="Chimica analitica e strumentale ‐ La chimica analitica permette di individuare  la  composizione  di  campioni  di  origine  naturale  o  artificiale  individuando  i  componenti presenti e la loro abbondanza (concentrazione).  Nel  corso  del  triennio  vengono  affrontate  tecniche  di  tipo  qualitativo,  che  permettono  di  individuare  le  sostanze  presenti  nei  campioni,  tecniche  di  tipo  quantitativo,  che  consentono  di  stabilire  la  quantità  dei  diversi  componenti  impiegando sia tecniche tradizionali che tecniche di tipo strumentale, attribuendo  la  massima  importanza  sia  agli  aspetti  pratici  sia  alle  basi  teoriche  delle  metodologie impiegate"
-
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView16"
-                android:layout_width="match_parent"
-                android:layout_height="32dp"
-                android:fontFamily="@font/open_sans_light"
-                android:text="Se vuoi scaricare il volantino completo clicca il link sotto."
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
-
-            <TextView
-                android:id="@+id/textView26"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:autoLink="web"
-                android:fontFamily="@font/open_sans_light"
-                android:gravity="center"
-                android:text="urly.it/3hn_8"
-
-                android:textStyle="bold"
-                app:autoSizeTextType="uniform" />
-        </LinearLayout>
-    </ScrollView>
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="413dp"
-        android:layout_height="111dp"
-        android:layout_marginTop="16dp"
-        android:src="@drawable/screenshot__2__removebg_preview"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="413dp"
+            android:layout_height="111dp"
+            android:src="@drawable/screenshot__2__removebg_preview"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="4dp" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
