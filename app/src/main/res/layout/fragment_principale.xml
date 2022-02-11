@@ -33,9 +33,9 @@
         app:iss_auto_cycle="true"
         app:iss_corner_radius="20"
         app:iss_delay="0"
-        app:iss_error_image="@color/purple_700"
+
         app:iss_period="3000"
-        app:iss_placeholder="@color/black"
+
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         tools:layout_editor_absoluteX="16dp" />

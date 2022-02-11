@@ -18,34 +18,58 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="147dp"
-        android:layout_height="46dp"
-        android:fontFamily="@font/open_sans_semibold"
-        android:text="CHI SIAMO"
-        android:textColor="#F44336"
-        android:textSize="24sp"
-        app:autoSizeTextType="uniform"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <com.google.android.material.card.MaterialCardView
+        style="?attr/materialCardViewElevatedStyle"
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_margin="8dp"
+        android:checkable="true"
+        android:clickable="true"
+        android:focusable="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.03" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4">
 
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="0dp"
-        android:layout_height="162dp"
-        android:fontFamily="@font/open_sans_light"
-        android:text="Il Pininfarina è un istituto tecnico industriale statale , interamente cablato, attrezzato con laboratori e aule di informatica. Dispone di oltre 800 computer, ogni aula possiede una lavagna Lim e la strumentazione per poter effettuare anche lezioni di didattica a distanza. Vi sono, inoltre, laboratori di matematica, inglese, fisica, chimica, robotica, biotecnologie, scienze, disegno, meccanica, tecnologia elettronica, sistemi elettronici. "
-        android:textAllCaps="false"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        app:autoSizeTextType="uniform"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView19"
-        app:layout_constraintVertical_bias="0.063" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans_semibold"
+                android:text="Chi siamo"
+                style="?attr/textAppearanceHeadlineLarge"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toTopOf="@+id/textView22"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/open_sans_light"
+                android:text="Il Pininfarina è un istituto tecnico industriale statale , interamente cablato, attrezzato con laboratori e aule di informatica. Dispone di oltre 800 computer, ogni aula possiede una lavagna Lim e la strumentazione per poter effettuare anche lezioni di didattica a distanza. Vi sono, inoltre, laboratori di matematica, inglese, fisica, chimica, robotica, biotecnologie, scienze, disegno, meccanica, tecnologia elettronica, sistemi elettronici. "
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                style="?attr/textAppearanceBodyMedium"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView19" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
