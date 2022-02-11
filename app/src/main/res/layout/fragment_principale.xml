@@ -51,7 +51,7 @@
         android:gravity="center"
         android:text="CONTATTI"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textStyle="bold"
+        style="?attr/textAppearanceTitleMedium"
         app:autoSizeTextType="uniform"
         app:layout_constraintTop_toBottomOf="@+id/slider"
         tools:layout_editor_absoluteX="145dp" />
@@ -70,7 +70,8 @@
         app:layout_constraintHorizontal_bias="0.537"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        style="?attr/textAppearanceBodyMedium"/>
 
     <TextView
         android:id="@+id/textView4"
@@ -86,7 +87,9 @@
         app:layout_constraintHorizontal_bias="0.575"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.005" />
+        app:layout_constraintVertical_bias="0.005"
+        style="?attr/textAppearanceBodyMedium"
+        />
 
     <TextView
         android:id="@+id/textView6"
@@ -102,7 +105,10 @@
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        style="?attr/textAppearanceBodyMedium"
+        />
+
 
     <TextView
         android:id="@+id/textView5"
@@ -114,7 +120,8 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.928" />
+        app:layout_constraintVertical_bias="0.928"
+        style="?attr/textAppearanceBodyMedium"/>
 
     <TextView
         android:id="@+id/textView7"
@@ -124,7 +131,7 @@
         android:fontFamily="@font/open_sans_light"
         android:gravity="center"
         android:text=" @ Copyright 2022 | Engineered and powered by G.F.M.E"
-        android:textStyle="bold"
+        style="?attr/textAppearanceTitleMedium"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

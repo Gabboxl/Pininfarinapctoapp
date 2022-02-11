@@ -31,7 +31,8 @@
             android:src="@drawable/biotecnologie_removebg_preview"
             app:layout_constraintEnd_toStartOf="@+id/textView9"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            style="?attr/textAppearanceBodyMedium"/>
 
 
         <TextView
@@ -42,11 +43,11 @@
 
             android:fontFamily="@font/noto_sans"
             android:text=" La  chimica  bio‐organica  si  occupa  dello  studio  degli  idrocarburi  (saturi,  insaturi,  aromatici)  e  dei  composti  contenenti  gruppi  funzionali  (alcoli,  composti  carbonici,  acidi  carbossilici  e  derivati, ammine) al fine di comprendere i principali meccanismi di reazione  e  la  correlazione  tra  struttura  molecolare  e  proprietà  chimiche  e  chimico  fisiche.  Nel  corso  del  triennio  si  affronta  lo  studio  delle  caratteristiche  strutturali  e  funzionali  delle  biomolecole  (glucidi,  lipidi,  proteine,  acidi  nucleici)  e  quello  della  catalisi  enzimatica  e  dell’energia  in  biochimica  in  modo tale da porre le basi per la logica comprensione dei principali processi  metabolici. Nella trattazione dei contenuti si mettono in evidenza gli aspetti  applicativi della disciplina e le correlazioni con la vita quotidiana. "
-            android:textSize="14sp"
-            android:textStyle="normal"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            style="?attr/textAppearanceBodyMedium"/>
 
         <TextView
             android:id="@+id/textView13"
@@ -55,11 +56,11 @@
 
             android:fontFamily="@font/noto_sans"
             android:text="Fisica ambientale ‐ La fisica ambientale studia la produzione di energia e le  sue  trasformazioni,  con  particolare  riferimento  all’ambiente;  esamina  poi  i  problemi degli inquinanti di tipo fisico, in particolare il rumore, le radiazioni  non  ionizzanti  (campi  elettromagnetici)  e  quelle  ionizzanti  (radiazioni  nucleari).  Nell’ambito  della  fisica  ambientale  si  riprendono  le  tecniche  di  misura, la normativa sugli inquinanti di tipo fisico e i loro effetti biologici."
-            android:textSize="14sp"
-            android:textStyle="normal"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+            app:layout_constraintTop_toBottomOf="@+id/textView10"
+            style="?attr/textAppearanceBodyMedium"/>
 
         <TextView
             android:id="@+id/textView15"
@@ -68,8 +69,8 @@
             android:fontFamily="@font/noto_sans"
             android:gravity="center"
             android:text="MATERIE DI INDIRIZZO"
-            android:textColor="#F44336"
-            android:textStyle="bold"
+
+            style="?attr/textAppearanceTitleMedium"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
@@ -82,12 +83,11 @@
 
             android:fontFamily="@font/noto_sans"
             android:text="Biologia,  microbiologia  e  tecniche  di  controllo  ambientale  ‐ Vengono  studiati  argomenti  di  biologia,  dalla  struttura  della  cellula  agli  ecosistemi,  e  di  microbiologia,  con  particolare  riferimento  a  quei  microrganismi  sfruttati  in  moltissime  applicazioni  biotecnologiche,  per  esempio  nella  bonifica  di  aree  inquinate.  La  pratica  di  laboratorio  permette  agli  allievi  di  analizzare  i  fenomeni  biologici  oggetto  di  studio:  osservare  i  microrganismi  con  il  microscopio  e  mediante  terreni  di  coltura,  individuare  i  principali  inquinanti  di  aria,  acqua  e  terreno;  approfondire  la  tecnologia  di  recupero  energetico  dei  rifiuti.  Viene  affrontato inoltre lo studio delle biotecnologie e delle loro applicazioni ambientali.  "
-            android:textSize="14sp"
-            android:textStyle="normal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.233"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+            app:layout_constraintTop_toBottomOf="@+id/textView15"
+            style="?attr/textAppearanceBodyMedium"/>
 
         <TextView
             android:id="@+id/textView20"
@@ -95,11 +95,11 @@
             android:layout_height="290dp"
             android:fontFamily="@font/noto_sans"
             android:text="Chimica analitica e strumentale ‐ La chimica analitica permette di individuare  la  composizione  di  campioni  di  origine  naturale  o  artificiale  individuando  i  componenti presenti e la loro abbondanza (concentrazione).  Nel  corso  del  triennio  vengono  affrontate  tecniche  di  tipo  qualitativo,  che  permettono  di  individuare  le  sostanze  presenti  nei  campioni,  tecniche  di  tipo  quantitativo,  che  consentono  di  stabilire  la  quantità  dei  diversi  componenti  impiegando sia tecniche tradizionali che tecniche di tipo strumentale, attribuendo  la  massima  importanza  sia  agli  aspetti  pratici  sia  alle  basi  teoriche  delle  metodologie impiegate"
-            android:textStyle="normal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.538"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+            app:layout_constraintTop_toBottomOf="@+id/textView17"
+            style="?attr/textAppearanceBodyMedium"/>
 
         <ImageView
             android:id="@+id/imageView"
@@ -107,7 +107,8 @@
             android:layout_height="111dp"
             android:src="@drawable/screenshot__2__removebg_preview"
             tools:layout_editor_absoluteX="2dp"
-            tools:layout_editor_absoluteY="4dp" />
+            tools:layout_editor_absoluteY="4dp"
+            style="?attr/textAppearanceBodyMedium"/>
 
         <TextView
             android:id="@+id/linkfragment2"
@@ -117,7 +118,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+            app:layout_constraintTop_toBottomOf="@+id/textView20"
+            style="?attr/textAppearanceBodyMedium"/>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

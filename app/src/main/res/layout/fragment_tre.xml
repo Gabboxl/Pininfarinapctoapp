@@ -48,7 +48,7 @@
             android:fontFamily="@font/noto_sans"
             android:text="Sistemi automatici ‐ La teoria dei circuiti elettronici trova nella disciplina una  dimensione  sistemica.  Le  definizioni  di  sistema  e  del  relativo  controllo  integrano  le  conoscenze  di  Elettronica  ed  Elettrotecnica  con  modalità  e  contenuti  che permettono di intervenire nei processi  tipici  dell’acquisizione  dati, nei sistemi di controllo, nella realizzazione di sistemi di interfaccia, nei  metodi  di  comunicazione  tra  apparecchiature  elettroniche.  A  tal  fine,  gli  studenti  porteranno  avanti  il  progetto  di  alcune  unità  funzionali  tipiche  di  dispositivi elettromedicali utilizzando un microcontrollor"
 
-            android:textStyle="normal"
+            style="?attr/textAppearanceBodyMedium"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView10" />
@@ -60,8 +60,7 @@
             android:fontFamily="@font/noto_sans"
             android:gravity="center"
             android:text="MATERIE DI INDIRIZZO"
-            android:textColor="#F44336"
-            android:textStyle="bold"
+            style="?attr/textAppearanceTitleMedium"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView10" />
@@ -73,7 +72,7 @@
             android:fontFamily="@font/noto_sans"
             android:text="Tecnologie  e  progettazione  di  sistemi  elettrici  ed  elettronici  ‐  L'obiettivo  dell'insegnamento è di fornire agli studenti i supporti teorici e pratici necessari alla  comprensione  dei  principi  fisici  e  del  funzionamento  delle  principali  apparecchiature biomediche e dispositivi elettronici. Vengono inoltre presentate le  parti essenziali di un sistema di misura e relativi metodi di misura."
 
-            android:textStyle="normal"
+            style="?attr/textAppearanceBodyMedium"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -86,7 +85,7 @@
             android:fontFamily="@font/noto_sans"
             android:text="Elettronica ed Elettrotecnica ‐ L'insegnamento si propone di dare allo studente le  nozioni  di  base  sulle  metodologie  generali  per  l'analisi  dei  circuiti  lineari  e  le  nozioni  generali  per  la  comprensione  delle  macchine  elettriche  e  dei  dispositivi  elettrici  impiegati  nei  diversi  settori  Biomedicali.  L'insegnamento  ha  lo  scopo  di  descrivere  le  proprietà  principali  dei  campi  elettromagnetici  dinamici  e  dell’impiantistica elettrica in luoghi speciali  (studi medici, ospedali, ...), avviare gli  studenti  alle  problematiche  di  progettazione  di  dispositivi  elettronici  per  applicazioni  biomediche.  L'insegnamento  introduce  lo  studente  alla  conoscenza  dei  segnali  e  sistemi  biomedici  ed  ai  metodi  fondamentali  per  il  trattamento  dell'informazione"
 
-            android:textStyle="normal"
+            style="?attr/textAppearanceBodyMedium"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.75"
             app:layout_constraintStart_toStartOf="parent"
