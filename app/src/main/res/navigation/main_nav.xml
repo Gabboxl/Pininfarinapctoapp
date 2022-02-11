@@ -45,7 +45,7 @@
     <fragment
         android:id="@+id/setteFragment"
         android:name="com.example.itispininfarina.SetteFragment"
-        android:label="boh"
+        android:label="FAD"
         tools:layout="@layout/fragment_sette" />
     <fragment
         android:id="@+id/ottoFragment"

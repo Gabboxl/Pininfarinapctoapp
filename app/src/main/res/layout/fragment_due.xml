@@ -64,16 +64,16 @@
 
         <TextView
             android:id="@+id/textView17"
+            style="?attr/textAppearanceBodyMedium"
             android:layout_width="393dp"
-            android:layout_height="278dp"
 
+            android:layout_height="278dp"
             android:fontFamily="@font/noto_sans"
-            android:text="Biologia,  microbiologia  e  tecniche  di  controllo  ambientale  ‐ Vengono  studiati  argomenti  di  biologia,  dalla  struttura  della  cellula  agli  ecosistemi,  e  di  microbiologia,  con  particolare  riferimento  a  quei  microrganismi  sfruttati  in  moltissime  applicazioni  biotecnologiche,  per  esempio  nella  bonifica  di  aree  inquinate.  La  pratica  di  laboratorio  permette  agli  allievi  di  analizzare  i  fenomeni  biologici  oggetto  di  studio:  osservare  i  microrganismi  con  il  microscopio  e  mediante  terreni  di  coltura,  individuare  i  principali  inquinanti  di  aria,  acqua  e  terreno;  approfondire  la  tecnologia  di  recupero  energetico  dei  rifiuti.  Viene  affrontato inoltre lo studio delle biotecnologie e delle loro applicazioni ambientali.  "
+            android:text="Biologia, stoilogia,  microbiologia  e  tecniche  di  controllo  ambientale  ‐ Vengono  studiati  argomenti  di  biologia,  dalla  struttura  della  cellula  agli  ecosistemi,  e  di  microbiologia,  con  particolare  riferimento  a  quei  microrganismi  sfruttati  in  moltissime  applicazioni  biotecnologiche,  per  esempio  nella  bonifica  di  aree  inquinate.  La  pratica  di  laboratorio  permette  agli  allievi  di  analizzare  i  fenomeni  biologici  oggetto  di  studio:  osservare  i  microrganismi  con  il  microscopio  e  mediante  terreni  di  coltura,  individuare  i  principali  inquinanti  di  aria,  acqua  e  terreno;  approfondire  la  tecnologia  di  recupero  energetico  dei  rifiuti.  Viene  affrontato inoltre lo studio delle biotecnologie e delle loro applicazioni ambientali.  "
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.233"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView15"
-            style="?attr/textAppearanceBodyMedium"/>
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
         <TextView
             android:id="@+id/textView20"
