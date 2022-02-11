@@ -1,107 +1,164 @@
-<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:layout_height="match_parent">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".UnoFragment">
-
-
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="0dp"
-            android:layout_height="110dp"
-            android:layout_marginTop="8dp"
-            android:fontFamily="@font/noto_sans"
-            android:text="Sistemi e  reti  ‐ Vengono affrontare  le  problematiche  della  comunicazione  tra calcolatori in rete sia a livello locale che geografica (internet), in modo da  formare  tecnici  in  grado  di  progettare  e  configurare  reti,  e  di  realizzare  applicazioni informatiche."
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView7"
-            style="?attr/textAppearanceBodyMedium"
-            />
-
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="0dp"
-            android:layout_height="141dp"
-            android:fontFamily="@font/noto_sans"
-            android:text="Tecnologie  e  progettazione  di  sistemi  informatici  e  di  telecomunicazioni ‐ L’approccio all’elaboratore porta a vedere la macchina  dal  punto  di  vista  sistemico,  analizzando  il  “come  è  fatto”  e  il  “come  funziona”.  Vengono  inoltre affrontate  le  problematiche  della  progettazione  di sistemi di elaborazione e di trasmissione delle informazioni seguendo varie  metodologie di progetto. "
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.551"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView10"
-            style="?attr/textAppearanceBodyMedium"/>
-
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="411dp"
-            android:layout_height="37dp"
-            android:layout_marginTop="2dp"
-            android:fontFamily="@font/open_sans_semibold"
-            android:gravity="center"
-            android:text="MATERIE DI INDIRIZZO"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView11"
-            style="?attr/textAppearanceTitleMedium"/>
-
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="0dp"
-            android:layout_height="237dp"
-            android:fontFamily="@font/noto_sans"
-            android:text="Informatica  ‐  Si  impara  a  realizzare  programmi  per  il  computer,  ma  soprattutto ad affrontare problemi, individuandone le soluzioni partendo  dall'analisi  per arrivare alla  realizzazione,  scegliendo le metodologie e gli  strumenti  software  più  idonei  tra  quelli  a  disposizione.  Rispetto  all’  articolazione  Telecomunicazioni,  i  temi  trattati  vengono  maggiormente  approfonditi  rendendo  possibile in  tal modo anche lo  studio  di problemi  complessi;  le  competenze  vengono  inoltre  estese  agli  ambiti  della  gestione dei dati (Database) e all’implementazione di interfacce utente. "
-
-
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView12" />
-
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="0dp"
-            android:layout_height="105dp"
-            android:fontFamily="@font/noto_sans"
-            android:text="Telecomunicazioni ‐ Vengono fornite le basi dell’elettronica e i concetti  fondamentali delle telecomunicazioni, in modo da poter utilizzare in modo  consapevole  gli  strumenti  tecnologici  con  cui  il  futuro  perito  dovrà  lavorare"
-
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView13"
-            style="?attr/textAppearanceBodyMedium"/>
-
-        <TextView
-            android:id="@+id/textView15"
-            android:layout_width="419dp"
-            android:layout_height="136dp"
-            android:fontFamily="@font/noto_sans"
-            android:text="Gestione di progetto, organizzazione d’impresa ‐ Materia del quinto  anno, fornisce le basi per saper realizzare un progetto anche dal punto di  vista  gestionale  e  non  solo  tecnico.  Fornisce  indicazioni  su  come  sono  organizzate le imprese"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView14"
-            style="?attr/textAppearanceBodyMedium"/>
-
+        android:orientation="vertical">
 
         <ImageView
             android:id="@+id/imageView7"
-            android:layout_width="405dp"
-            android:layout_height="108dp"
-            android:src="@drawable/informatica_removebg_preview"
-            tools:layout_editor_absoluteY="-2dp" />
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/informatica_removebg_preview" />
 
-        <TextView
-            android:id="@+id/linkfragment1"
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardinf1"
+            style="?attr/materialCardViewElevatedStyle"
             android:layout_width="match_parent"
-            android:layout_height="32dp"
-            android:text="@string/info"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textView10"
+                style="?attr/textAppearanceBodyMedium"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/noto_sans"
+                android:text="Sistemi e  reti  ‐ Vengono affrontare  le  problematiche  della  comunicazione  tra calcolatori in rete sia a livello locale che geografica (internet), in modo da  formare  tecnici  in  grado  di  progettare  e  configurare  reti,  e  di  realizzare  applicazioni informatiche."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView11"
+                style="?attr/textAppearanceBodyMedium"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/noto_sans"
+                android:text="Tecnologie  e  progettazione  di  sistemi  informatici  e  di  telecomunicazioni ‐ L’approccio all’elaboratore porta a vedere la macchina  dal  punto  di  vista  sistemico,  analizzando  il  “come  è  fatto”  e  il  “come  funziona”.  Vengono  inoltre affrontate  le  problematiche  della  progettazione  di sistemi di elaborazione e di trasmissione delle informazioni seguendo varie  metodologie di progetto. "
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+            <TextView
+                android:id="@+id/textView12"
+                style="?attr/textAppearanceTitleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/noto_sans_bold"
+                android:text="Materie di indirizzo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView11" />
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/noto_sans"
+                android:text="Informatica  ‐  Si  impara  a  realizzare  programmi  per  il  computer,  ma  soprattutto ad affrontare problemi, individuandone le soluzioni partendo  dall'analisi  per arrivare alla  realizzazione,  scegliendo le metodologie e gli  strumenti  software  più  idonei  tra  quelli  a  disposizione.  Rispetto  all’  articolazione  Telecomunicazioni,  i  temi  trattati  vengono  maggiormente  approfonditi  rendendo  possibile in  tal modo anche lo  studio  di problemi  complessi;  le  competenze  vengono  inoltre  estese  agli  ambiti  della  gestione dei dati (Database) e all’implementazione di interfacce utente. "
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+            <TextView
+                android:id="@+id/textView14"
+                style="?attr/textAppearanceBodyMedium"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/noto_sans"
+                android:text="Telecomunicazioni ‐ Vengono fornite le basi dell’elettronica e i concetti  fondamentali delle telecomunicazioni, in modo da poter utilizzare in modo  consapevole  gli  strumenti  tecnologici  con  cui  il  futuro  perito  dovrà  lavorare"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <TextView
+                android:id="@+id/textView15"
+                style="?attr/textAppearanceBodyMedium"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/noto_sans"
+                android:text="Gestione di progetto, organizzazione d’impresa ‐ Materia del quinto  anno, fornisce le basi per saper realizzare un progetto anche dal punto di  vista  gestionale  e  non  solo  tecnico.  Fornisce  indicazioni  su  come  sono  organizzate le imprese"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            style="?attr/materialCardViewElevatedStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardinf1">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                
+                <TextView
+                    android:id="@+id/linkfragment1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/info"
+                    android:layout_margin="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"  />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
 </ScrollView>

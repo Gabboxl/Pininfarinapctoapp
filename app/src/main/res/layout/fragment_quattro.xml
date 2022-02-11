@@ -1,82 +1,124 @@
-<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:orientation="vertical">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".UnoFragment">
+        android:orientation="vertical">
 
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="405dp"
-            android:layout_height="102dp"
-            android:layout_marginStart="4dp"
-            android:src="@drawable/meccanica_removebg_preview"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="-3dp" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/meccanica_removebg_preview" />
 
-        <TextView
-            android:id="@+id/textView10"
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardmecc1"
+            style="?attr/materialCardViewElevatedStyle"
             android:layout_width="match_parent"
-            android:layout_height="192dp"
-            android:layout_marginTop="8dp"
-            android:fontFamily="@font/open_sans_light"
-
-            style="?attr/textAppearanceBodyMedium"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView2">
 
-        <TextView
-            android:id="@+id/textView15"
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView15"
+                    style="?attr/textAppearanceTitleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/noto_sans"
+                    android:gravity="center"
+                    android:text="Materie di indirizzo"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    style="?attr/textAppearanceBodyMedium"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/noto_sans"
+                    android:text="Meccanica,  macchine  ed  energia  ‐  Il  corso  ha  lo  scopo  di  fornire  le  competenze  di  dimensionamento  degli  organi  meccanici  (con  metodi  tradizionali, ma anche innovativi come l’analisi agli elementi finiti) in campo  statico  e  dinamico,  di  progettazione  e  gestione  dei  sistemi  idraulici,  termotecnica, motoristici e di produzione dell’energia.  Tecnologie  meccaniche  di  processo  e  di  prodotto  ‐  Il  corso  fornisce  le  competenze  nei  campi  della  scienza  dei  materiali,  dei  processi  produttivi  tradizionali  e  innovativi,  dei  controlli  di  qualità  e  della  sicurezza  sul  lavoro.  Particolare  attenzione  è  riservata  alla  didattica  laboratoriale  in  cui  si  utilizzano  macchine  utensili  tradizionali  e  CNC,  macchine  di  prova  per  la  caratterizzazione  dei  materiali  e  innovative  stampanti  tridimensionale  per  particolari in plastica.  Disegno,  progettazione  e  organizzazione  industriale  ‐  Il  corso  intende  fornire le competenze di progettazione di sistemi meccanici, di produzione di  disegni  costruttivi  di  particolare  e  d'insieme  e  di  redazione  dei  cicli  di  fabbricazione. Sono usati a questo scopo i software AutoCAD, CATIA V5 per la  modellazione  solida,  CAM  ESPRIT  per  la  programmazione  dei  percorsi  utensili.  Fornisce  inoltre  solide  competenze  riguardanti  l'organizzazione,  la  gestione  e  l'analisi  dei  costi  della  produzione  industriale,  nel  rispetto  delle  norme antinfortunistiche, di sicurezza del lavoro e di tutela dell'ambiente."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    style="?attr/textAppearanceBodyMedium"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/noto_sans"
+                    android:text="Impianti energetici, disegno e progettazione ‐Il corso fornisce le competenze di  progettazione  e  gestione,  tecnica  ed  economica,  degli  impianti  idraulici,  di  riscaldamento,  di  condizionamento,  di  refrigerazione,  di  produzione  e  conversione dell’energia. Oltre la progettazione degli organi meccanici in genere,  con  riferimento  alla  produzione  di  disegni  costruttivi  con  AutoCAD  e  Catia  V5,    per  il  dimensionamento  e    il  disegno  degli  impianti    civili  e  industriali  si  usa  il  software  TERMOLOG. "
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            style="?attr/materialCardViewElevatedStyle"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:fontFamily="@font/open_sans_semibold"
-            android:gravity="center"
-            android:text="MATERIE DI INDIRIZZO"
-            style="?attr/textAppearanceTitleMedium"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+            app:layout_constraintTop_toBottomOf="@+id/cardmecc1">
 
-        <TextView
-            android:id="@+id/textView17"
-            android:layout_width="0dp"
-            android:layout_height="445dp"
-            android:fontFamily="@font/open_sans_light"
-            android:text="Meccanica,  macchine  ed  energia  ‐  Il  corso  ha  lo  scopo  di  fornire  le  competenze  di  dimensionamento  degli  organi  meccanici  (con  metodi  tradizionali, ma anche innovativi come l’analisi agli elementi finiti) in campo  statico  e  dinamico,  di  progettazione  e  gestione  dei  sistemi  idraulici,  termotecnica, motoristici e di produzione dell’energia.  Tecnologie  meccaniche  di  processo  e  di  prodotto  ‐  Il  corso  fornisce  le  competenze  nei  campi  della  scienza  dei  materiali,  dei  processi  produttivi  tradizionali  e  innovativi,  dei  controlli  di  qualità  e  della  sicurezza  sul  lavoro.  Particolare  attenzione  è  riservata  alla  didattica  laboratoriale  in  cui  si  utilizzano  macchine  utensili  tradizionali  e  CNC,  macchine  di  prova  per  la  caratterizzazione  dei  materiali  e  innovative  stampanti  tridimensionale  per  particolari in plastica.  Disegno,  progettazione  e  organizzazione  industriale  ‐  Il  corso  intende  fornire le competenze di progettazione di sistemi meccanici, di produzione di  disegni  costruttivi  di  particolare  e  d'insieme  e  di  redazione  dei  cicli  di  fabbricazione. Sono usati a questo scopo i software AutoCAD, CATIA V5 per la  modellazione  solida,  CAM  ESPRIT  per  la  programmazione  dei  percorsi  utensili.  Fornisce  inoltre  solide  competenze  riguardanti  l'organizzazione,  la  gestione  e  l'analisi  dei  costi  della  produzione  industriale,  nel  rispetto  delle  norme antinfortunistiche, di sicurezza del lavoro e di tutela dell'ambiente."
-            style="?attr/textAppearanceBodyMedium"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textView24"
-            android:layout_width="405dp"
-            android:layout_height="243dp"
-            android:fontFamily="@font/open_sans_light"
-            android:text="Impianti energetici, disegno e progettazione ‐Il corso fornisce le competenze di  progettazione  e  gestione,  tecnica  ed  economica,  degli  impianti  idraulici,  di  riscaldamento,  di  condizionamento,  di  refrigerazione,  di  produzione  e  conversione dell’energia. Oltre la progettazione degli organi meccanici in genere,  con  riferimento  alla  produzione  di  disegni  costruttivi  con  AutoCAD  e  Catia  V5,    per  il  dimensionamento  e    il  disegno  degli  impianti    civili  e  industriali  si  usa  il  software  TERMOLOG. "
+                <TextView
+                    android:id="@+id/linkfragment4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="@string/mec"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-            style="?attr/textAppearanceBodyMedium"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
 
-        <TextView
-            android:id="@+id/linkfragment4"
-            android:layout_width="396dp"
-            android:layout_height="37dp"
-            android:text="@string/mec"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent" />
-
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
 </ScrollView>
