@@ -44,7 +44,9 @@
         android:id="@+id/textView"
         android:layout_width="136dp"
         android:layout_height="0dp"
+        android:layout_marginStart="145dp"
         android:layout_marginTop="32dp"
+        android:layout_marginEnd="130dp"
         android:background="#0003A9F4"
         android:clickable="true"
         android:fontFamily="@font/open_sans_light"
@@ -53,8 +55,10 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         style="?attr/textAppearanceTitleMedium"
         app:autoSizeTextType="uniform"
-        app:layout_constraintTop_toBottomOf="@+id/slider"
-        tools:layout_editor_absoluteX="145dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slider" />
 
     <TextView
         android:id="@+id/textView3"

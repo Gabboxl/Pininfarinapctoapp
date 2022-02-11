@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/principaleFragment"
         android:name="com.example.itispininfarina.FragmentPrincipale"
-        android:label="Itis Pininfarina"
+        android:label="ITIS Pininfarina"
         tools:layout="@layout/fragment_principale" />
 
     <fragment

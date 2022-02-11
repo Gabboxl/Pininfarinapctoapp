@@ -9,47 +9,27 @@
         android:layout_height="match_parent"
         tools:context=".UnoFragment">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="413dp"
-            android:layout_height="111dp"
-            android:src="@drawable/screenshot__2__removebg_preview"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="0dp"
-            android:layout_height="83dp"
-            android:layout_marginEnd="8dp"
-            android:fontFamily="@font/open_sans"
-            android:gravity="center"
-            android:text="CORSO DI ELETTRONICA ED ELETTROTECNICA"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:autoSizeTextType="uniform"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageView10"
-            app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
         <ImageView
             android:id="@+id/imageView10"
-            android:layout_width="wrap_content"
-            android:layout_height="121dp"
+            android:layout_width="406dp"
+            android:layout_height="130dp"
             android:src="@drawable/elettronica_removebg_preview"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"
-            tools:layout_editor_absoluteX="2dp" />
-
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="3dp" />
 
         <TextView
             android:id="@+id/textView10"
             android:layout_width="match_parent"
             android:layout_height="117dp"
 
+            android:layout_marginTop="8dp"
             android:fontFamily="@font/noto_sans"
-            android:text="Sistemi automatici ‐ La teoria dei circuiti elettronici trova nella disciplina una  dimensione  sistemica.  Le  definizioni  di  sistema  e  del  relativo  controllo  integrano  le  conoscenze  di  Elettronica  ed  Elettrotecnica  con  modalità  e  contenuti  che permettono di intervenire nei processi  tipici  dell’acquisizione  dati, nei sistemi di controllo, nella realizzazione di sistemi di interfaccia, nei  metodi  di  comunicazione  tra  apparecchiature  elettroniche.  A  tal  fine,  gli  studenti  porteranno  avanti  il  progetto  di  alcune  unità  funzionali  tipiche  di  dispositivi elettromedicali utilizzando un microcontrollor"
 
             style="?attr/textAppearanceBodyMedium"
+            android:text="Sistemi automatici ‐ La teoria dei circuiti elettronici trova nella disciplina una  dimensione  sistemica.  Le  definizioni  di  sistema  e  del  relativo  controllo  integrano  le  conoscenze  di  Elettronica  ed  Elettrotecnica  con  modalità  e  contenuti  che permettono di intervenire nei processi  tipici  dell’acquisizione  dati, nei sistemi di controllo, nella realizzazione di sistemi di interfaccia, nei  metodi  di  comunicazione  tra  apparecchiature  elettroniche.  A  tal  fine,  gli  studenti  porteranno  avanti  il  progetto  di  alcune  unità  funzionali  tipiche  di  dispositivi elettromedicali utilizzando un microcontrollor"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
@@ -95,6 +75,7 @@
             android:id="@+id/linkfragment3"
             android:layout_width="match_parent"
             android:layout_height="32dp"
+            android:gravity="center"
             android:text="@string/ele"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
