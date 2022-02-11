@@ -15,52 +15,66 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="377dp"
-        android:layout_height="67dp"
+    <com.google.android.material.card.MaterialCardView
+        style="?attr/materialCardViewElevatedStyle"
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
         android:layout_marginStart="16dp"
-        android:fontFamily="@font/open_sans_bold"
-        android:gravity="center"
-        android:text="CHI SIAMO"
-        android:textColor="#F44336"
-        android:textSize="24sp"
-        app:autoSizeTextType="none"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="16dp"
+        android:layout_margin="8dp"
+        android:checkable="true"
+        android:clickable="true"
+        android:focusable="true"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView9">
 
-    <TextView
-        android:id="@+id/textView23"
-        android:layout_width="0dp"
-        android:layout_height="190dp"
-        android:fontFamily="@font/open_sans_light"
-        android:text="Noi siamo i G.F.M.E , quattro studenti della 4°A Informatica dell'ITIS PININFARINA appassionati di informatica e del mondo della programmazione. Questa app è nata come progetto di PCTO, ed il nostro scopo è di renderla sempre migliore per poi offrirla a tutti gli studenti ed il personale della scuola.                                                                                   I nostri nomi sono Gabriele Castelli, Francesco Roscia, Mattia Del Grosso ed Eric Marian Stoicescu"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:autoSizeTextType="uniform"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.592"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView21"
-        app:layout_constraintVertical_bias="0.053" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/noto_sans"
+                android:text="Chi siamo"
+                style="?attr/textAppearanceHeadlineLarge"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="0dp"
+                android:layout_height="190dp"
+                android:fontFamily="@font/open_sans_light"
+                android:text="Noi siamo i G.F.M.E , quattro studenti della 4°A Informatica dell'ITIS PININFARINA appassionati di informatica e del mondo della programmazione. Questa app è nata come progetto di PCTO, ed il nostro scopo è di renderla sempre migliore per poi offrirla a tutti gli studenti ed il personale della scuola.                                                                                   I nostri nomi sono Gabriele Castelli, Francesco Roscia, Mattia Del Grosso ed Eric Marian Stoicescu"
+                style="?attr/textAppearanceBodyMedium"
+                app:autoSizeTextType="uniform"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView21" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
 
     <TextView
         android:id="@+id/textView17"
         android:layout_width="418dp"
         android:layout_height="28dp"
         android:text="__________________________________________________________________"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/textView18"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.939" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView18"
