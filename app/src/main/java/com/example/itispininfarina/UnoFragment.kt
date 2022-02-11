@@ -27,7 +27,7 @@ class UnoFragment : Fragment() {
         val layout = inflater.inflate(R.layout.fragment_uno, container, false)
 
         var linkTextView: TextView;
-        linkTextView = layout.findViewById(R.id.textView16);
+        linkTextView = layout.findViewById(R.id.linkfragment1);
         linkTextView.setMovementMethod(LinkMovementMethod.getInstance())
 
         return layout

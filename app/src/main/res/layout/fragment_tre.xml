@@ -45,10 +45,10 @@
             android:layout_width="match_parent"
             android:layout_height="117dp"
 
-            android:fontFamily="@font/open_sans_light"
+            android:fontFamily="@font/noto_sans"
             android:text="Sistemi automatici ‐ La teoria dei circuiti elettronici trova nella disciplina una  dimensione  sistemica.  Le  definizioni  di  sistema  e  del  relativo  controllo  integrano  le  conoscenze  di  Elettronica  ed  Elettrotecnica  con  modalità  e  contenuti  che permettono di intervenire nei processi  tipici  dell’acquisizione  dati, nei sistemi di controllo, nella realizzazione di sistemi di interfaccia, nei  metodi  di  comunicazione  tra  apparecchiature  elettroniche.  A  tal  fine,  gli  studenti  porteranno  avanti  il  progetto  di  alcune  unità  funzionali  tipiche  di  dispositivi elettromedicali utilizzando un microcontrollor"
 
-            android:textStyle="bold"
+            android:textStyle="normal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView10" />
@@ -57,63 +57,50 @@
             android:id="@+id/textView12"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:fontFamily="@font/open_sans_semibold"
+            android:fontFamily="@font/noto_sans"
             android:gravity="center"
             android:text="MATERIE DI INDIRIZZO"
             android:textColor="#F44336"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
         <TextView
             android:id="@+id/textView13"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/open_sans_light"
+            android:layout_width="399dp"
+            android:layout_height="137dp"
+            android:fontFamily="@font/noto_sans"
             android:text="Tecnologie  e  progettazione  di  sistemi  elettrici  ed  elettronici  ‐  L'obiettivo  dell'insegnamento è di fornire agli studenti i supporti teorici e pratici necessari alla  comprensione  dei  principi  fisici  e  del  funzionamento  delle  principali  apparecchiature biomediche e dispositivi elettronici. Vengono inoltre presentate le  parti essenziali di un sistema di misura e relativi metodi di misura."
 
-            android:textStyle="bold"
+            android:textStyle="normal"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
         <TextView
             android:id="@+id/textView14"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/open_sans_light"
+            android:layout_width="395dp"
+            android:layout_height="300dp"
+            android:fontFamily="@font/noto_sans"
             android:text="Elettronica ed Elettrotecnica ‐ L'insegnamento si propone di dare allo studente le  nozioni  di  base  sulle  metodologie  generali  per  l'analisi  dei  circuiti  lineari  e  le  nozioni  generali  per  la  comprensione  delle  macchine  elettriche  e  dei  dispositivi  elettrici  impiegati  nei  diversi  settori  Biomedicali.  L'insegnamento  ha  lo  scopo  di  descrivere  le  proprietà  principali  dei  campi  elettromagnetici  dinamici  e  dell’impiantistica elettrica in luoghi speciali  (studi medici, ospedali, ...), avviare gli  studenti  alle  problematiche  di  progettazione  di  dispositivi  elettronici  per  applicazioni  biomediche.  L'insegnamento  introduce  lo  studente  alla  conoscenza  dei  segnali  e  sistemi  biomedici  ed  ai  metodi  fondamentali  per  il  trattamento  dell'informazione"
 
-            android:textStyle="bold"
+            android:textStyle="normal"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.75"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
         <TextView
-            android:id="@+id/textView16"
+            android:id="@+id/linkfragment3"
             android:layout_width="match_parent"
             android:layout_height="32dp"
-            android:fontFamily="@font/open_sans_light"
-            android:text="Se vuoi scaricare il volantino completo clicca il link sotto."
-            android:textStyle="bold"
+            android:text="@string/ele"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView14" />
-
-        <TextView
-            android:id="@+id/textView26"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:autoLink="web"
-            android:fontFamily="@font/open_sans_light"
-            android:gravity="center"
-            android:text="urly.it/3hn_9"
-
-            android:textStyle="bold"
-            app:autoSizeTextType="uniform"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
