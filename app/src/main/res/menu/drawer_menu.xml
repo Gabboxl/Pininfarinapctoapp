@@ -40,11 +40,10 @@
         
         <item
             android:id="@+id/setteFragment"
-            android:title="Frammento 7" />
+            android:icon="@drawable/ic_baseline_phone_android_24"
+            android:title="App per lo studente" />
 
-        <item
-            android:id="@+id/ottoFragment"
-            android:title="Frammento 8" />
+
 
 
     </group>
