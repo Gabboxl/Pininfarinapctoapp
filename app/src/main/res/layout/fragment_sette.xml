@@ -178,7 +178,7 @@
         android:layout_height="64dp"
         android:layout_marginTop="8dp"
         android:backgroundTint="#3F51B5"
-        android:text="ORARIO"
+        android:text="Orario"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
