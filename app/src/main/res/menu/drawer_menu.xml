@@ -43,6 +43,11 @@
             android:icon="@drawable/ic_baseline_phone_android_24"
             android:title="App per lo studente" />
 
+        <item
+            android:id="@+id/ottoFragment"
+            android:icon="@drawable/ic_baseline_calendar_month_24"
+            android:title="Countdown fine scuola" />
+
 
 
 

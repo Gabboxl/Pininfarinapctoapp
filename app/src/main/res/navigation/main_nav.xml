@@ -50,7 +50,7 @@
     <fragment
         android:id="@+id/ottoFragment"
         android:name="com.example.itispininfarina.OttoFragment"
-        android:label="boh"
+        android:label="Giorni rimanenti"
         tools:layout="@layout/fragment_otto" />
 
 </navigation>
