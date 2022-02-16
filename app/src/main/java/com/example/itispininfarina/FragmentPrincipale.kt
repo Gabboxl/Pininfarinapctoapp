@@ -1,10 +1,10 @@
 package com.example.itispininfarina
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import com.denzcoskun.imageslider.ImageSlider
 import com.denzcoskun.imageslider.models.SlideModel
 
@@ -22,7 +22,7 @@ class FragmentPrincipale : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val layout =  inflater.inflate(R.layout.fragment_principale, container, false)
+        val layout = inflater.inflate(R.layout.fragment_principale, container, false)
 
         val imageSlider = layout.findViewById<ImageSlider>(R.id.slider)
 

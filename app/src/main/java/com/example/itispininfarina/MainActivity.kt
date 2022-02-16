@@ -1,8 +1,6 @@
 package com.example.itispininfarina
 
 import android.os.Bundle
-import android.view.ViewGroup
-import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.NavController
@@ -38,7 +36,15 @@ class MainActivity : AppCompatActivity() {
 
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.principaleFragment, R.id.unoFragment, R.id.dueFragment, R.id.treFragment, R.id.quattroFragment, R.id.cinqueFragment, R.id.seiFragment, R.id.setteFragment, R.id.ottoFragment
+                R.id.principaleFragment,
+                R.id.unoFragment,
+                R.id.dueFragment,
+                R.id.treFragment,
+                R.id.quattroFragment,
+                R.id.cinqueFragment,
+                R.id.seiFragment,
+                R.id.setteFragment,
+                R.id.ottoFragment
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
@@ -59,10 +65,7 @@ class MainActivity : AppCompatActivity() {
         navView.layoutParams = params
 
 
-
     }
-
-
 
 
     override fun onSupportNavigateUp(): Boolean {

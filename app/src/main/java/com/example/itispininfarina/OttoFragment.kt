@@ -27,7 +27,6 @@ class OttoFragment : Fragment() {
         val layout = inflater.inflate(R.layout.fragment_otto, container, false)
 
 
-
         val cal: Calendar = Calendar.getInstance(TimeZone.getTimeZone("Europe/Rome"))
 
         val sdf = SimpleDateFormat("dd MM yyyy", Locale.ITALY)
@@ -37,7 +36,6 @@ class OttoFragment : Fragment() {
         val today = cal.time
 
         cal.time = sdf.parse("08 06 2022");// all done
-
 
 
         val finescuola = cal.time
